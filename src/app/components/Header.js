@@ -62,7 +62,7 @@ export default function Header() {
 
       {/* Mobile dropdown */}
       {isOpen && (
-        <div className="fixed left-0 right-0 z-40 bg-background text-primary flex flex-col items-center justify-center transition-colors duration-300" style={{ top: '4rem', height: 'calc(100vh - 5rem)' }}>
+        <div className="fixed left-0 right-0 z-40 bg-background text-primary flex flex-col items-center justify-center transition-colors duration-300 top-24" style={{height: 'calc(100vh - 6rem)' }}>
           <nav className="w-full h-full flex flex-col items-center justify-center">
             <ul className="flex flex-col items-center justify-center gap-8">
               {NAVIGATION_LINKS.map((link) => (
