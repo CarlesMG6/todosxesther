@@ -1,5 +1,6 @@
 "use client"
 
+import Agenda from "../components/Agenda";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
 
       <main className="flex flex-grow w-full flex-col items-center justify-between py-32 px-16 ">
+          <Agenda />
       </main>
 
       <Footer />
