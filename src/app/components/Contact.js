@@ -3,7 +3,9 @@ export default function Contact() {
     // TODO teníamos anotado esto:
     // - Formulario de contacto (nombre, email, mensaje)
     // - Información de contacto (email, teléfono, dirección Valldoreix)
-    // - Redes sociales (link a instagram, algo más?)
+        //infotodosconesther@gmail.com
+        //+34 629 644 588
+    // - Redes sociales (link a instagram, whatsapp, llamada directa, mail directo)
     // - FAQ o sección de preguntas frecuentes (opcional)
 
     return (
