@@ -1,5 +1,11 @@
 export default function Contact() {
     // TODO https://clubesportiuvalldoreix.com/ca/
+    // TODO teníamos anotado esto:
+    // - Formulario de contacto (nombre, email, mensaje)
+    // - Información de contacto (email, teléfono, dirección Valldoreix)
+    // - Redes sociales (link a instagram, algo más?)
+    // - FAQ o sección de preguntas frecuentes (opcional)
+
     return (
         <div>
             <h1

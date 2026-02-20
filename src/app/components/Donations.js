@@ -1,6 +1,11 @@
 export default function Donations() {
     //TODO Dejo esto aquí (lo he copiado de la página del año pasado)
     // Link de la vida es chula que estaba en la página tmbn : https://www.facebook.com/lavidaesxula/
+
+    // TODO teníamos anotado esto:
+    // - Detalles asociación la vida es xula
+    // - Posibilidades de donar () IBAN, Lotería, Pala 0, Torneo, ...
+    // IBAN
     return (
         <div>
             <h1

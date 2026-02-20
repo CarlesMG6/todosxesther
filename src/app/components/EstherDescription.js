@@ -1,5 +1,8 @@
 export default function EstherDescription() {
     //TODO Dejo esto aquí (lo he copiado de la página del año pasado y sumado un año 47+1=48)
+    // TODO teníamos anotado esto:
+    // - Quién es Esther + Enfermedad
+    // Fotitos
     return (
         <div>
             <h1
