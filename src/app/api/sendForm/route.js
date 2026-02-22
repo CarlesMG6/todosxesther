@@ -16,8 +16,9 @@ export async function POST(req) {
         await resend.emails.send({
       from: process.env.EMAIL_FROM,
       to: process.env.EMAIL_TO,
-      subject: "Formulario Completo",
-      html: `<p><strong>Nombre:</strong> ${name}</p>
+      subject: "Alguien tiene una duda",
+      html: `<p>Alguien ha rellenado el formulario de contacto en la web de todosxesther:</p>
+             <p><strong>Nombre:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
              <p><strong>Mensaje:</strong> ${message}</p>`,
     });
