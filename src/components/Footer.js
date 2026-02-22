@@ -1,7 +1,12 @@
+'use client'
+
+import { useTranslations } from 'next-intl';
 import { COMPANY_SOCIALS } from "./config";
 import { Link } from '@/i18n/navigation';
 
 export default function Footer() {
+  const t = useTranslations('PiePagina');
+
   return (
     <footer className="w-full bg-primary-foreground py-8 mt-16 flex flex-col items-center gap-6">
       <div className="w-full flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto mb-2 px-4 gap-4">
@@ -11,13 +16,13 @@ export default function Footer() {
             href="/donaciones"
             className="px-6 py-3 bg-accent rounded-full font-bold text-md shadow hover:scale-110 hover:shadow-xl transition-all"
           >
-            ¡Quiero ayudar!
+            {t('botonAyuda')}
           </Link>
           <Link
             href="/contacto"
             className="px-6 py-3 bg-background text-primary rounded-full font-bold text-md shadow hover:scale-110 hover:shadow-xl transition-all"
           >
-            Contáctanos
+            {t('botonContacto')}
           </Link>
         </div>
         {/* Socials debajo de los botones en mobile, a la izquierda en desktop */}
@@ -30,7 +35,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className="w-full max-w-3xl border-t border-primary/10" />
-      <div className="text-xs text-secondary">© {new Date().getFullYear()} Todos X Esther. Todos los derechos reservados.</div>
+      <div className="text-xs text-secondary">{t('derechosAutor', { year: new Date().getFullYear() })}</div>
     </footer>
   );
 }

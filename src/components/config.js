@@ -1,10 +1,10 @@
 import { AiOutlineMail, AiOutlineInstagram} from "react-icons/ai";
 // Navegación principal del sitio
 export const NAVIGATION_LINKS = [
-  { name: 'Quien es Esther', href: '/esther' },
-  { name: 'Como ayudar', href: '/donaciones' },
-  { name: 'Agenda', href: '/agenda' },
-  { name: 'Contacto', href: '/contacto' },  
+  { nameKey: 'Navegacion.esther', href: '/esther' },
+  { nameKey: 'Navegacion.donaciones', href: '/donaciones' },
+  { nameKey: 'Navegacion.agenda', href: '/agenda' },
+  { nameKey: 'Navegacion.contacto', href: '/contacto' },  
 ];
 
 export const SOCIAL_CONFIG = {

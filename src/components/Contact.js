@@ -1,3 +1,7 @@
+'use client'
+
+import { useTranslations } from 'next-intl';
+
 export default function Contact() {
     // TODO https://clubesportiuvalldoreix.com/ca/
     // TODO teníamos anotado esto:
@@ -7,16 +11,17 @@ export default function Contact() {
         //+34 629 644 588
     // - Redes sociales (link a instagram, whatsapp, llamada directa, mail directo)
     // - FAQ o sección de preguntas frecuentes (opcional)
+    const t = useTranslations('Contacto');
 
     return (
         <div>
             <h1
                 className="text-4xl font-bold text-center mb-8"
             >
-                Contacto
+                {t('titulo')}
             </h1>
             <div className="max-w-4xl w-full">
-                Próximamente...
+                {t('proximamente')}
             </div>
         </div>
     )

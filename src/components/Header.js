@@ -5,9 +5,11 @@ import { Menu, X } from 'lucide-react';
 import Image from "next/image";
 import { NAVIGATION_LINKS } from './config';
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations();
 
   return (
     <header className={`fixed w-full bg-primary-foreground top-0 left-0 z-50 h-24`}>
@@ -26,11 +28,11 @@ export default function Header() {
         <nav className="hidden xl:flex ml-4 gap-6 2xl:gap-10">
         {NAVIGATION_LINKS.map((link) => (
           <Link
-            key={link.name}
+            key={link.nameKey}
             href={link.href}
             className="transition hover:scale-110 hover:shadow-xl rounded-lg px-3 py-1"
           >
-            {link.name}
+            {t(link.nameKey)}
           </Link>
         ))}
       </nav>
@@ -67,13 +69,13 @@ export default function Header() {
           <nav className="w-full h-full flex flex-col items-center justify-center">
             <ul className="flex flex-col items-center justify-center gap-8">
               {NAVIGATION_LINKS.map((link) => (
-                <li key={link.name}>
+                <li key={link.nameKey}>
                   <Link
                     href={link.href}
                     className="text-2xl font-medium tracking-widest hover:text-accent-green hover:scale-110 hover:shadow-xl transition block text-center"
                     onClick={() => setIsOpen(false)}
                   >
-                    {link.name}
+                    {t(link.nameKey)}
                   </Link>  
                 </li>
               ))}

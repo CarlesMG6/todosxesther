@@ -1,6 +1,43 @@
 {
   "Home": {
-    "title": "Todos por Esther",
-    "cta": "Contáctanos"
+    "title": "All for Esther",
+    "cta": "Contact Us"
+  },
+  "Agenda": {
+    "title": "Tournament Schedule",
+    "surprises": "Singers, DJ, Zumba and many more surprises",
+    "food": "Can Veris food and beverage service at Restaurant and Village. During the entire tournament we will have exhibitions from various brands.",
+    "raffle": "As every year, we will hold a SOLIDARITY RAFFLE. You will soon be able to get your tickets.",
+    "location": "The tournament will be held at the facilities of Club Esportiu Valldoreix:"
+  },
+  "Contact": {
+    "title": "Contact",
+    "comingSoon": "Coming soon..."
+  },
+  "Donations": {
+    "title": "How can I help?",
+    "raffle": "There will be a SOLIDARITY RAFFLE among all attendees throughout the tournament. You will soon be able to get your number!",
+    "associationIntro": "The LAIA MIRA La Vida es Xula Association is a non-profit organization aimed at improving the quality of life for patients undergoing chemotherapy caused by cancer.",
+    "associationDescription": "It currently provides the oncology department of public hospitals in Catalonia with a hair loss prevention device for breast cancer patients. The project will continue to support both the Terrassa Hospital and other hospitals in Catalonia.",
+    "moneyUsage": "The money will be managed through this Association, with 90% of the proceeds going to care for Esther.",
+    "iban": "IBAN ES93 21000423990200552994"
+  },
+  "EstherDescription": {
+    "title": "Who is Esther?",
+    "bio": "Esther is 48 years old, cheerful, fun, loving, sociable, somewhat nervous and restless. She loves paddle tennis, the sea, and cats... but because of Huntington's disease, she cannot enjoy some of her favorite hobbies. And little by little, this disease will not let her enjoy any of them.",
+    "disease": "It is a hereditary degenerative disease with different stages, with the final one being much harder, as she may find herself unable to communicate and bedridden. Currently, there is no cure, so all we can do is take care of Esther so she feels loved and supported by all of us.",
+    "costs": "This care requires increasingly significant financial contributions because it becomes more specific and demanding over time.",
+    "event": "We are organizing the third edition of the solidarity tournament at CEV from March 31 to April 6, 2025 to raise money to care for Esther."
+  },
+  "Footer": {
+    "helpButton": "I want to help!",
+    "contactButton": "Contact Us",
+    "copyright": "© {year} All for Esther. All rights reserved."
+  },
+  "Navigation": {
+    "esther": "Who is Esther",
+    "donations": "How to help",
+    "agenda": "Agenda",
+    "contact": "Contact"
   }
 }

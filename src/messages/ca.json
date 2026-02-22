@@ -1,6 +1,43 @@
 {
   "Home": {
-    "title": "Todos por Esther",
-    "cta": "Contáctanos"
+    "title": "Tots per Esther",
+    "cta": "Contacta'ns"
+  },
+  "Agenda": {
+    "title": "Agenda del Torneig",
+    "surprises": "Cantants, DJ, Zumba i moltes més sorpreses",
+    "food": "Can Veris servei de menjar i beguda a Restaurante i al Village durant tot el torneig tindrem exposició d'algunes marques.",
+    "raffle": "Com cada any es realitzarà una TOMBOLA SOLIDÀRIA, aviat podràs aconseguir les teves paperetes.",
+    "location": "El torneig es realitzarà a les instal·lacions del Club Esportiu Valldoreix:"
+  },
+  "Contact": {
+    "title": "Contacte",
+    "comingSoon": "Aviat..."
+  },
+  "Donations": {
+    "title": "Com puc ajudar?",
+    "raffle": "Es realitzarà una RIFA SOLIDÀRIA entre tots els assistents, durant tot el torneig. ¡Aviat podràs aconseguir el teu número!",
+    "associationIntro": "L'Associació LAIA MIRA La Vida és Xula és una associació sense ànim de lucre destinada a millorar la qualitat de vida de les pacients en tractament per quimioteràpia provocada pel càncer.",
+    "associationDescription": "Actualment, proporciona al servei d'oncologia dels Hospitals públics de Catalunya un dispositiu de prevenció de l'alopècia en pacients amb càncer de mama. El projecte seguirà donant suport tant a l'Hospital de Terrassa com a altres hospitals de Catalunya.",
+    "moneyUsage": "Els diners es gestionaran mitjançant aquesta Associació, el 90% de la recaptació serà per cuidar d'Esther.",
+    "iban": "IBAN ES93 21000423990200552994"
+  },
+  "EstherDescription": {
+    "title": "Qui és Esther?",
+    "bio": "Esther té 48 anys, és alegra, divertida, carinyosa, sociable, una mica nerviosa i inquieta, li agrada el pàdel, la mar, els gats… però per culpa de la malaltia Corea de Huntington, no pot gaudir d'alguna de les seves aficions preferides. I poc a poc, aquesta malaltia no la deixarà gaudir de cap.",
+    "disease": "Es tracta d'una malaltia degenerativa hereditària amb diferents etapes, sent la final molt més dura, ja que es pot trobar sense possibilitat de comunicació i postrada en un llit. Actualment, no hi ha cura, per tant, l'únic que podem fer és cuidar d'Esther perquè es senti estimada i recolzada per tots nosaltres.",
+    "costs": "Aquests cuidats requereixen una aportació econòmica cada vegada més important perquè cada vegada és més específica i exigent.",
+    "event": "Organitzem la tercera edició del torneig solidari al CEV del 31 de març al 6 d'abril de 2025 per recaptar diners destinats a cuidar d'Esther."
+  },
+  "Footer": {
+    "helpButton": "Vull ajudar!",
+    "contactButton": "Contacta'ns",
+    "copyright": "© {year} Tots X Esther. Tots els drets reservats."
+  },
+  "Navigation": {
+    "esther": "Qui és Esther",
+    "donations": "Com ajudar",
+    "agenda": "Agenda",
+    "contact": "Contacte"
   }
 }
