@@ -34,3 +34,59 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Estructura del proyecto (ASCII)
+
+```text
+todosxesther/
+├── .git/
+├── .gitignore
+├── .next/
+├── jsconfig.json
+├── middleware.js
+├── next.config.js
+├── node_modules/
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public/
+│   └── images/
+│       ├── txe_logo.png
+│       ├── txe_logo_gato.png
+│       ├── txe_logo_gato_letras.png
+│       └── txe_logo_gato_txe.png
+├── README.md
+└── src/
+	├── app/
+	│   ├── favicon.ico
+	│   ├── globals.css
+	│   └── [locale]/
+	│       ├── layout.js
+	│       ├── not-found.jsx
+	│       ├── page.js
+	│       ├── agenda/
+	│       │   └── page.js
+	│       ├── contacto/
+	│       │   └── page.js
+	│       ├── donaciones/
+	│       │   └── page.js
+	│       └── esther/
+	│           └── page.js
+	├── components/
+	│   ├── Agenda.js
+	│   ├── config.js
+	│   ├── Contact.js
+	│   ├── Donations.js
+	│   ├── EstherDescription.js
+	│   ├── Footer.js
+	│   └── Header.js
+	├── i18n/
+	│   ├── i18n.js
+	│   ├── navigation.js
+	│   ├── request.js
+	│   └── routing.js
+	└── messages/
+		├── ca.json
+		├── en.json
+		└── es.json
+```
