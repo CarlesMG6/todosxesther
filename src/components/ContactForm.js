@@ -38,11 +38,10 @@ export default function ContactForm() {
     }
     setLoading(true);
     try {
-      const res = await fetch("/api/sendEmail", {
+      const res = await fetch("/api/sendForm", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          type: "complete",
           name: form.name,
           email: form.email,
           message: form.message,
