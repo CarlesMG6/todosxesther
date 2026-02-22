@@ -55,5 +55,21 @@
   },
   "ContactOptions": {
     "title": "Altres formes de contactar-nos"
+  },
+  "FAQs": {
+    "title": "Preguntes freqüents",
+    "showMore": "Mostrar més",
+    "q1": "Com puc ajudar?",
+    "a1": "Ens pots ajudar de moltes maneres: fent una donació a l'IBAN ES93 21000423990200552994, participant al sorteig, apuntant-te al torneig o mitjançant la pala 0 (pagant l'import del torneig sense participar). Qualsevol ajuda, per petita que sigui, és benvinguda.",
+    "q2": "Quan i on se celebra el torneig?",
+    "a2": "El torneig se celebra del 20 al 26 d'abril a les instal·lacions del Club Esportiu Valldoreix.",
+    "q3": "Quin horari tindrà el torneig? Què passa si no puc jugar en un horari concret?",
+    "a3": "No et preocupis per l'horari, es té en compte la disponibilitat dels participants i es flexibilitza perquè hi puguis participar. Podràs indicar les teves franges horàries no disponibles i es farà tot el possible per adaptar-s'hi.",
+    "q4": "Puc participar si sóc principiant o no tinc experiència en pàdel o tennis?",
+    "a4": "Hi ha categories per a tots els nivells, des de principiants fins a avançats. Si no tens gens d'experiència i no et sents còmode jugant però vols aportar, sempre pots participar en la pala 0 (modalitat en què pagues l'import del torneig sense participar).",
+    "q5": "Es pot assistir a l'esdeveniment sense jugar al torneig?",
+    "a5": "És clar que sí, tothom és benvingut. Aquests dies estaran plens d'activitats, sortejos, música, menjar i beguda. T'animem a venir a gaudir de l'esdeveniment i participar en la causa.",
+    "q6": "Com participo en el sorteig?",
+    "a6": "Per participar en el sorteig es podran comprar butlletes presencialment durant l'esdeveniment. El sorteig es farà l'últim dia i s'anunciaran els guanyadors presencialment."
   }
 }

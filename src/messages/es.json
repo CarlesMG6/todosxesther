@@ -55,5 +55,21 @@
   },
   "ContactOptions": {
     "title": "Otras formas de contactarnos"
+  },
+  "FAQs": {
+    "title": "Preguntas frecuentes",
+    "showMore": "Mostrar más",
+    "q1": "¿Cómo puedo ayudar?",
+    "a1": "Puedes ayudarnos de muchas formas: Realizando una donación al IBAN ES93 21000423990200552994, participando en el sorteo, apuntándote al torneo o mediante la pala 0 (pagando el importe del torneo sin participar). Cualquier ayuda, por pequeña que sea, es bienvenida.",
+    "q2": "¿Cuándo y dónde se celebra el torneo?",
+    "a2": "El torneo se celebra del 20 al 26 de abril en las instalaciones del Club Esportiu Valldoreix.",
+    "q3": "¿Qué horario tendrá el torneo? ¿Qué pasa si no puedo jugar en un horario concreto?",
+    "a3": "No te preocupes por el horario, se tiene en cuenta la disponibilidad de los participantes y se flexibiliza para que puedas participar. Se te permitirá indicar tus franjas horarias no disponibles y se hará todo lo posible para adaptarse a ellas.",
+    "q4": "¿Puedo participar si soy principiante o no tengo experiencia en pádel o tenis?",
+    "a4": "Hay categorías para todos los niveles, desde principiantes hasta avanzados. Si no tienes nada de experiencia y no estás cómodo jugando pero quieres aportar siempre puedes participar en la pala 0 (modalidad en la que pagas el importe del torneo sin participar).",
+    "q5": "¿Se puede asistir al evento sin jugar en el torneo?",
+    "a5": "Claro que sí, todo el mundo es bienvenido, estos días estarán llenos de actividades, sorteos, música, comida y bebida. Te animamos a venir a disfrutar del evento y participar en la causa.",
+    "q6": "¿Cómo participo en el sorteo?",
+    "a6": "Para participar en el sorteo se podrán comprar boletos presencialmente durante el evento. El sorteo se realizará el último día del evento y se anunciarán los ganadores presencialmente."
   }
 }

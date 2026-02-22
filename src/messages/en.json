@@ -55,5 +55,21 @@
   },
   "ContactOptions": {
     "title": "Other ways to contact us"
+  },
+  "FAQs": {
+    "title": "Frequently asked questions",
+    "showMore": "Show more",
+    "q1": "How can I help?",
+    "a1": "You can help us in many ways: making a donation to IBAN ES93 21000423990200552994, joining the raffle, signing up for the tournament, or through the \"pala 0\" option (paying the tournament fee without participating). Any help, no matter how small, is welcome.",
+    "q2": "When and where is the tournament held?",
+    "a2": "The tournament takes place from April 20 to 26 at the Club Esportiu Valldoreix facilities.",
+    "q3": "What schedule will the tournament have? What if I cannot play at a specific time?",
+    "a3": "Do not worry about the schedule; participants' availability is considered and it is made flexible so you can take part. You will be able to indicate time slots when you are unavailable and every effort will be made to adapt.",
+    "q4": "Can I participate if I am a beginner or have no experience in padel or tennis?",
+    "a4": "There are categories for all levels, from beginners to advanced. If you have no experience and are not comfortable playing but still want to contribute, you can always join the \"pala 0\" option (paying the tournament fee without participating).",
+    "q5": "Can I attend the event without playing in the tournament?",
+    "a5": "Of course, everyone is welcome. These days will be full of activities, raffles, music, food and drink. We encourage you to come enjoy the event and support the cause.",
+    "q6": "How do I take part in the raffle?",
+    "a6": "Raffle tickets can be purchased in person during the event. The raffle will be held on the last day and winners will be announced in person."
   }
 }
