@@ -1,10 +1,9 @@
 "use client"
 
+import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-
-import {useTranslations} from 'next-intl';
 
 export default function Home() {
 
@@ -19,7 +18,7 @@ export default function Home() {
       */}
       <Hero/>
       <main className="flex grow w-full flex-col items-center justify-between py-32 px-16 ">
-
+        <CtaSection />
         {/* call to action (CTA) a quien es esther - descubre la historia de Esther */}
         {/* call to action (CTA) a donaciones - ¿Como puedo ayudar?*/}
         {/* call to action (CTA) a agenda del torneo - consulta la agenda o consulta todo lo que tenemos preparado o algo así */}

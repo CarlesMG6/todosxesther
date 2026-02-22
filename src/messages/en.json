@@ -71,5 +71,29 @@
     "a5": "Of course, everyone is welcome. These days will be full of activities, raffles, music, food and drink. We encourage you to come enjoy the event and support the cause.",
     "q6": "How do I take part in the raffle?",
     "a6": "Raffle tickets can be purchased in person during the event. The raffle will be held on the last day and winners will be announced in person."
+  },
+  "CtaSection": {
+    "options": {
+      "esther": {
+        "title": "Who is Esther?",
+        "description": "Discover Esther's story and why this solidarity tournament is so important for her care.",
+        "buttonText": "Meet Esther"
+      },
+      "agenda": {
+        "title": "Tournament schedule",
+        "description": "Check dates, activities and everything we have prepared during tournament week.",
+        "buttonText": "View the schedule"
+      },
+      "ayudar": {
+        "title": "How to help?",
+        "description": "Explore different ways to contribute: donations, solidarity raffle, and more options to support.",
+        "buttonText": "I want to help"
+      },
+      "contacto": {
+        "title": "Do you have any questions?",
+        "description": "Write to us and we will answer any questions about the event or how to participate.",
+        "buttonText": "Contact us"
+      }
+    }
   }
 }

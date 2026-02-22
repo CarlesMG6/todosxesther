@@ -71,5 +71,29 @@
     "a5": "Claro que sí, todo el mundo es bienvenido, estos días estarán llenos de actividades, sorteos, música, comida y bebida. Te animamos a venir a disfrutar del evento y participar en la causa.",
     "q6": "¿Cómo participo en el sorteo?",
     "a6": "Para participar en el sorteo se podrán comprar boletos presencialmente durante el evento. El sorteo se realizará el último día del evento y se anunciarán los ganadores presencialmente."
+  },
+  "CtaSection": {
+    "options": {
+      "esther": {
+        "title": "¿Quién es Esther?",
+        "description": "Descubre la historia de Esther y por qué este torneo solidario es tan importante para su cuidado.",
+        "buttonText": "Conoce a Esther"
+      },
+      "agenda": {
+        "title": "Agenda del torneo",
+        "description": "Consulta fechas, actividades y todo lo que tenemos preparado durante la semana del torneo.",
+        "buttonText": "Ver la agenda"
+      },
+      "ayudar": {
+        "title": "¿Cómo ayudar?",
+        "description": "Explora las distintas formas de colaborar: donaciones, rifa solidaria y más opciones para sumar.",
+        "buttonText": "Quiero ayudar"
+      },
+      "contacto": {
+        "title": "¿Tienes alguna duda?",
+        "description": "Escríbenos y te responderemos cualquier consulta sobre el evento o cómo participar.",
+        "buttonText": "Contáctanos"
+      }
+    }
   }
 }

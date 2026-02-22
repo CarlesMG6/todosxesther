@@ -71,5 +71,29 @@
     "a5": "És clar que sí, tothom és benvingut. Aquests dies estaran plens d'activitats, sortejos, música, menjar i beguda. T'animem a venir a gaudir de l'esdeveniment i participar en la causa.",
     "q6": "Com participo en el sorteig?",
     "a6": "Per participar en el sorteig es podran comprar butlletes presencialment durant l'esdeveniment. El sorteig es farà l'últim dia i s'anunciaran els guanyadors presencialment."
+  },
+  "CtaSection": {
+    "options": {
+      "esther": {
+        "title": "Qui és Esther?",
+        "description": "Descobreix la història d'Esther i per què aquest torneig solidari és tan important per al seu cuidat.",
+        "buttonText": "Coneix l'Esther"
+      },
+      "agenda": {
+        "title": "Agenda del torneig",
+        "description": "Consulta dates, activitats i tot el que tenim preparat durant la setmana del torneig.",
+        "buttonText": "Veure l'agenda"
+      },
+      "ayudar": {
+        "title": "Com ajudar?",
+        "description": "Explora les diferents maneres de col·laborar: donacions, rifa solidària i més opcions per sumar.",
+        "buttonText": "Vull ajudar"
+      },
+      "contacto": {
+        "title": "Tens algun dubte?",
+        "description": "Escriu-nos i et respondrem qualsevol consulta sobre l'esdeveniment o com participar.",
+        "buttonText": "Contacta'ns"
+      }
+    }
   }
 }
