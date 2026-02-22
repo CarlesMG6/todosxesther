@@ -11,17 +11,17 @@ export default function Contact() {
         //+34 629 644 588
     // - Redes sociales (link a instagram, whatsapp, llamada directa, mail directo)
     // - FAQ o sección de preguntas frecuentes (opcional)
-    const t = useTranslations('Contacto');
-
+    const t = useTranslations('Contact');
+    
     return (
         <div>
             <h1
                 className="text-4xl font-bold text-center mb-8"
             >
-                {t('titulo')}
+                {t('title')}
             </h1>
             <div className="max-w-4xl w-full">
-                {t('proximamente')}
+                {t('comingSoon')}
             </div>
         </div>
     )

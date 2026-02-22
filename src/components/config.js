@@ -1,10 +1,10 @@
 import { AiOutlineMail, AiOutlineInstagram} from "react-icons/ai";
 // Navegación principal del sitio
 export const NAVIGATION_LINKS = [
-  { nameKey: 'Navegacion.esther', href: '/esther' },
-  { nameKey: 'Navegacion.donaciones', href: '/donaciones' },
-  { nameKey: 'Navegacion.agenda', href: '/agenda' },
-  { nameKey: 'Navegacion.contacto', href: '/contacto' },  
+  { nameKey: 'Navigation.esther', href: '/esther' },
+  { nameKey: 'Navigation.donations', href: '/donaciones' },
+  { nameKey: 'Navigation.agenda', href: '/agenda' },
+  { nameKey: 'Navigation.contact', href: '/contacto' },  
 ];
 
 export const SOCIAL_CONFIG = {

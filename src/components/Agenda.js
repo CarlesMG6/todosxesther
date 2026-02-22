@@ -10,13 +10,13 @@ export default function Agenda() {
             <h1
                 className="text-4xl font-bold text-center mb-8"
             >
-                {t('titulo')}
+                {t('title')}
             </h1>
             <div className="max-w-4xl">
-                <p className="mb-4">{t('sorpresas')}</p>
-                <p className="mb-4">{t('comida')}</p>
-                <p className="mb-4">{t('rifa')}</p>
-                <p>{t('ubicacion')}</p>
+                <p className="mb-4">{t('surprises')}</p>
+                <p className="mb-4">{t('food')}</p>
+                <p className="mb-4">{t('raffle')}</p>
+                <p>{t('location')}</p>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import { COMPANY_SOCIALS } from "./config";
 import { Link } from '@/i18n/navigation';
 
 export default function Footer() {
-  const t = useTranslations('PiePagina');
+  const t = useTranslations('Footer');
 
   return (
     <footer className="w-full bg-primary-foreground py-8 mt-16 flex flex-col items-center gap-6">
@@ -16,13 +16,13 @@ export default function Footer() {
             href="/donaciones"
             className="px-6 py-3 bg-accent rounded-full font-bold text-md shadow hover:scale-110 hover:shadow-xl transition-all"
           >
-            {t('botonAyuda')}
+            {t('helpButton')}
           </Link>
           <Link
             href="/contacto"
             className="px-6 py-3 bg-background text-primary rounded-full font-bold text-md shadow hover:scale-110 hover:shadow-xl transition-all"
           >
-            {t('botonContacto')}
+            {t('contactButton')}
           </Link>
         </div>
         {/* Socials debajo de los botones en mobile, a la izquierda en desktop */}
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className="w-full max-w-3xl border-t border-primary/10" />
-      <div className="text-xs text-secondary">{t('derechosAutor', { year: new Date().getFullYear() })}</div>
+      <div className="text-xs text-secondary">{t('copyright', { year: new Date().getFullYear() })}</div>
     </footer>
   );
 }

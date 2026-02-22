@@ -7,20 +7,20 @@ export default function EstherDescription() {
     // TODO teníamos anotado esto:
     // - Quién es Esther + Enfermedad
     // Fotitos
-    const t = useTranslations('DescripcionEsther');
-
+    const t = useTranslations('EstherDescription');
+    
     return (
         <div>
             <h1
                 className="text-4xl font-bold text-center mb-8"
             >
-                {t('titulo')}
+                {t('title')}
             </h1>
             <div className="max-w-4xl">
-                <p className="mb-4">{t('biografia')}</p>
-                <p className="mb-4">{t('enfermedad')}</p>
-                <p className="mb-4">{t('costos')}</p>
-                <p>{t('evento')}</p>
+                <p className="mb-4">{t('bio')}</p>
+                <p className="mb-4">{t('disease')}</p>
+                <p className="mb-4">{t('costs')}</p>
+                <p>{t('event')}</p>
             </div>
         </div>
     );
