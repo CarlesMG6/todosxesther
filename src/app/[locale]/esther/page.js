@@ -1,8 +1,8 @@
 "use client"
 
-import Donations from "../components/Donations";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import EstherDescription from "@/components/EstherDescription";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
 
       <main className="flex flex-grow w-full flex-col items-center justify-between py-32 px-16 ">
-        <Donations />
+        <EstherDescription />
       </main>
 
       <Footer />

@@ -1,14 +1,19 @@
 "use client"
 
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+
+import {useTranslations} from 'next-intl';
 
 export default function Home() {
+  const t = useTranslations('Home');
+
   return (
     <div className="flex flex-col min-h-screen items-center justify-center bg-background">
       <Header />
 
       <main className="flex flex-grow w-full flex-col items-center justify-between py-32 px-16 ">
+        <h1>{t('title')}</h1>
         {/* Hero o landing - Bonito con alguna foto o algo 
           - Info sobre el torneo - fecha, lugar, categorías, etc
           - Padel y tennis + Botón apuntarse que redirija a xporty

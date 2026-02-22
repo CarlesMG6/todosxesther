@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Image from "next/image";
 import { NAVIGATION_LINKS } from './config';
+import { Link } from '@/i18n/navigation';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,13 +25,13 @@ export default function Header() {
         {/* Desktop links juntos */}
         <nav className="hidden xl:flex ml-4 gap-6 2xl:gap-10">
         {NAVIGATION_LINKS.map((link) => (
-          <a
+          <Link
             key={link.name}
             href={link.href}
             className="transition hover:scale-110 hover:shadow-xl rounded-lg px-3 py-1"
           >
             {link.name}
-          </a>
+          </Link>
         ))}
       </nav>
       <nav className="hidden xl:flex justify-start items-center mx-auto gap-10" style={{ width: '520px' }}>
@@ -43,7 +44,7 @@ export default function Header() {
           isOpen ? "opacity-80" : "opacity-100"
         }`}
       >
-        <a
+        <Link
           href="/"
           style={{ pointerEvents: "auto" }}
           className="transition-all duration-300"
@@ -56,7 +57,7 @@ export default function Header() {
             className="h-20 w-auto md:h-24 object-contain" 
             priority
           />
-        </a>
+        </Link>
       </div>
 
 
@@ -67,13 +68,13 @@ export default function Header() {
             <ul className="flex flex-col items-center justify-center gap-8">
               {NAVIGATION_LINKS.map((link) => (
                 <li key={link.name}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-2xl font-medium tracking-widest hover:text-accent-green hover:scale-110 hover:shadow-xl transition block text-center"
                     onClick={() => setIsOpen(false)}
                   >
                     {link.name}
-                  </a>  
+                  </Link>  
                 </li>
               ))}
             </ul>

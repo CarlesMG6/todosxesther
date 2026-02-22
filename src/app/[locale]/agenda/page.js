@@ -1,8 +1,8 @@
 "use client"
 
-import Agenda from "../components/Agenda";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Agenda from "@/components/Agenda";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
