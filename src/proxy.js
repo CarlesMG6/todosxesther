@@ -3,7 +3,7 @@ import {routing} from '@/i18n/routing';
 
 const intlMiddleware = createMiddleware(routing);
 
-export default function middleware(req) {
+export default function proxy(req) {
   const {pathname} = req.nextUrl;
 
   // Ignorar assets
