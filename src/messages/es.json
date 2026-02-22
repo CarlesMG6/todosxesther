@@ -39,5 +39,21 @@
     "donations": "Como ayudar",
     "agenda": "Agenda",
     "contact": "Contacto"
+  },
+  "ContactForm": {
+    "title": "¿Tienes preguntas?",
+    "subtitle": "Contáctanos y te resolveremos cualquier duda que tengas sobre cómo ayudar, el evento o lo que necesites.",
+    "labelName": "Nombre *",
+    "labelEmail": "Correo electrónico *",
+    "labelMessage": "Mensaje",
+    "btnSubmit": "Te contactamos",
+    "errorNameRequired": "El nombre es obligatorio",
+    "errorEmailRequired": "El correo es obligatorio",
+    "errorApi": "Error al enviar",
+    "errorNetwork": "Error de red",
+    "successMessage": "¡Correo enviado correctamente!"
+  },
+  "ContactOptions": {
+    "title": "Otras formas de contactarnos"
   }
 }

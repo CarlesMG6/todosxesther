@@ -39,5 +39,21 @@
     "donations": "Com ajudar",
     "agenda": "Agenda",
     "contact": "Contacte"
+  },
+  "ContactForm": {
+    "title": "¿Tens preguntes?",
+    "subtitle": "Contacta'ns i et resoldrem qualsevol dubte que tinguis sobre com ajudar, l'event o el que necessitis.",
+    "labelName": "Nom *",
+    "labelEmail": "Correu electrònic *",
+    "labelMessage": "Missatge",
+    "btnSubmit": "Et contactem",
+    "errorNameRequired": "El nom és obligatori",
+    "errorEmailRequired": "El correu és obligatori",
+    "errorApi": "Error en enviar",
+    "errorNetwork": "Error de xarxa",
+    "successMessage": "¡Correu enviat correctament!"
+  },
+  "ContactOptions": {
+    "title": "Altres formes de contactar-nos"
   }
 }
