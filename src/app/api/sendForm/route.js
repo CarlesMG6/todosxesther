@@ -17,7 +17,7 @@ export async function POST(req) {
       from: process.env.EMAIL_FROM,
       to: process.env.EMAIL_TO,
       subject: "Alguien tiene una duda",
-      html: `<p>Alguien ha rellenado el formulario de contacto en la web de todosxesther:</p>
+      html: `<p>Alguien ha rellenado el formulario de contacto en la web:</p>
              <p><strong>Nombre:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
              <p><strong>Mensaje:</strong> ${message}</p>`,
