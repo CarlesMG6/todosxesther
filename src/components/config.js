@@ -1,4 +1,5 @@
-import { AiOutlineMail, AiOutlineInstagram} from "react-icons/ai";
+import { AiOutlineMail, AiOutlineInstagram, AiOutlinePhone} from "react-icons/ai";
+import { FaWhatsapp } from "react-icons/fa";
 // Navegación principal del sitio
 export const NAVIGATION_LINKS = [
   { nameKey: 'Navigation.esther', href: '/esther' },
@@ -18,11 +19,25 @@ export const SOCIAL_CONFIG = {
     name: "Email",
     url: "mailto:infotodosconesther@gmail.com",
     handle: "infotodosconesther@gmail.com",
+  },
+
+  phone: {
+    name: "Teléfono",
+    url: "tel:+34629644588",
+    handle: "+34 629 644 588",
+  },
+
+  whatsapp: {
+    name: "WhatsApp",
+    url: "https://wa.me/34629644588",
+    handle: "+34 629 644 588",
   }
 };
 
 // Array de redes sociales con iconos (para usar en componentes)
 export const COMPANY_SOCIALS = [
   { name: SOCIAL_CONFIG.instagram.name, url: SOCIAL_CONFIG.instagram.url, icon: <AiOutlineInstagram /> },
-  { name: SOCIAL_CONFIG.email.name, url: SOCIAL_CONFIG.email.url, icon: <AiOutlineMail /> }
+  { name: SOCIAL_CONFIG.email.name, url: SOCIAL_CONFIG.email.url, icon: <AiOutlineMail /> },
+  { name: SOCIAL_CONFIG.phone.name, url: SOCIAL_CONFIG.phone.url, icon: <AiOutlinePhone /> },
+  { name: SOCIAL_CONFIG.whatsapp.name, url: SOCIAL_CONFIG.whatsapp.url, icon: <FaWhatsapp /> }
 ];
