@@ -17,6 +17,17 @@ export default function Donations() {
             >
                 {t('title')}
             </h1>
+            
+            <div className="max-w-4xl mx-auto flex flex-col lg:flex-row gap-4">
+                <button className="w-full px-4 py-30 text-white rounded-full bg-primary-foreground focus:outline-none hover:scale-105 hover:shadow-xl">
+                    {t('enterprise')}
+                    <img></img>
+                </button>
+                <button className="w-full px-4 py-30 text-white rounded-full bg-primary-foreground focus:outline-none hover:scale-105 hover:shadow-xl">
+                    {t('particular')}
+                    <img></img>
+                </button>
+            </div>
             <div className="max-w-4xl">
                 <p className="mb-4">{t('raffle')}</p>
                 <p className="mb-4">{t('associationIntro')}</p>

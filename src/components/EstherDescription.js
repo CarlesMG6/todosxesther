@@ -16,11 +16,16 @@ export default function EstherDescription() {
             >
                 {t('title')}
             </h1>
-            <div className="max-w-4xl">
-                <p className="mb-4">{t('bio')}</p>
-                <p className="mb-4">{t('disease')}</p>
-                <p className="mb-4">{t('costs')}</p>
-                <p>{t('event')}</p>
+            <div className="max-w-4xl grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div className="max-w-4xl">
+                    <p className="mb-4">{t('bio')}</p>
+                    <p className="mb-4">{t('disease')}</p>
+                    <p className="mb-4">{t('costs')}</p>
+                    <p>{t('event')}</p>
+                </div>
+                <div>
+                    <img src="/images/esther/esther.jpeg" alt="Esther"/>
+                </div>
             </div>
         </div>
     );

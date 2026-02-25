@@ -16,6 +16,8 @@
   },
   "Donations": {
     "title": "¿Cómo ayudar?",
+    "enterprise": "Empresa",
+    "particular": "Particular",
     "raffle": "Se realizará una RIFA SOLIDARIA entre todos los asistentes, durante todo el torneo. ¡En breve podrás conseguir tu número!",
     "associationIntro": "La Asociación LAIA MIRA La Vida es Xula es una asociación sin ánimo de lucro destinado a mejorar la calidad de vida de las pacientes en tratamiento por quimioterapia provocado por el cáncer.",
     "associationDescription": "Actualmente, proporciona al servicio de oncología de los Hospitales públicos de Cataluña un dispositivo de prevención de la alopecia en pacientes con cáncer de mama. El proyecto seguirá dando soporte tanto al Hospital de Terrassa como a otros hospitales de Cataluña.",
@@ -24,10 +26,10 @@
   },
   "EstherDescription": {
     "title": "¿Quién es Esther?",
-    "bio": "Esther tiene 48 años, es alegre, divertida, cariñosa, sociable, algo nerviosa e inquieta, le gusta el pádel, el mar, los gatos… pero por culpa de la enfermedad Corea de Huntington, no puede disfrutar de alguna de sus aficiones preferidas. Y poco a poco, esta enfermedad no la dejará disfrutar de ninguna.",
-    "disease": "Se trata de una enfermedad degenerativa hereditaria con diferentes etapas, siendo la final mucho más dura, ya que se puede encontrar sin posibilidad de comunicación y postrada en una cama. Actualmente,  no hay cura, por tanto, lo único que podemos hacer es cuidar a Esther para que se sienta querida y apoyada por todos nosotros.",
-    "costs": "Esos cuidados requieren de una aportación económica cada vez más importante porque cada vez es más específica y exigente.",
-    "event": "Organizamos la tercera edición del torneo solidario en el CEV del 31 de marzo al 6 de abril de 2025 para recaudar dinero destinado a cuidar de Esther."
+    "bio": "Esther es la persona más alegre y enérgica de nuestro torneo. Actualmente, Esther vive con Corea de Huntington: una enfermedad que no tiene cura. Nuestro objetivo es brindarle todos los cuidados posibles para que su vida sea un poquito más cómoda y más llena de momentos felices.",
+    "disease": "La Corea de Huntington es una enfermedad neurodegenerativa hereditaria que afecta al cerebro. Se caracteriza por la aparición progresiva de movimientos involuntarios, dificultad para coordinar movimientos, así como cambios en la personalidad. Con el tiempo, estos síntomas se intensifican y pueden interferir de forma significativa en la vida diaria y en la capacidad para realizar actividades cotidianas.",
+    "costs": "Estos cuidados requieren de un esfuerzo económico importante, ya que incluyen atención y adaptaciones que hacen mejorar su bienestar y calidad de vida.",
+    "event": "Por este motivo, organizamos la 4a edición del torneo solidario Todos X Esther para recaudar dinero destinado a esta causa. El 90% del dinero recaudado será donado al cuidado de Esther."
   },
   "Footer": {
     "helpButton": "¡Quiero ayudar!",

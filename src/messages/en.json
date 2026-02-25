@@ -16,6 +16,8 @@
   },
   "Donations": {
     "title": "How can I help?",
+    "enterprise": "Enterprise",
+    "particular": "Particular",
     "raffle": "There will be a SOLIDARITY RAFFLE among all attendees throughout the tournament. You will soon be able to get your number!",
     "associationIntro": "The LAIA MIRA La Vida es Xula Association is a non-profit organization aimed at improving the quality of life for patients undergoing chemotherapy caused by cancer.",
     "associationDescription": "It currently provides the oncology department of public hospitals in Catalonia with a hair loss prevention device for breast cancer patients. The project will continue to support both the Terrassa Hospital and other hospitals in Catalonia.",

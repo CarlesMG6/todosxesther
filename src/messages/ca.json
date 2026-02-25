@@ -16,6 +16,8 @@
   },
   "Donations": {
     "title": "Com puc ajudar?",
+    "enterprise": "Empresa",
+    "particular": "Particular",
     "raffle": "Es realitzarà una RIFA SOLIDÀRIA entre tots els assistents, durant tot el torneig. ¡Aviat podràs aconseguir el teu número!",
     "associationIntro": "L'Associació LAIA MIRA La Vida és Xula és una associació sense ànim de lucre destinada a millorar la qualitat de vida de les pacients en tractament per quimioteràpia provocada pel càncer.",
     "associationDescription": "Actualment, proporciona al servei d'oncologia dels Hospitals públics de Catalunya un dispositiu de prevenció de l'alopècia en pacients amb càncer de mama. El projecte seguirà donant suport tant a l'Hospital de Terrassa com a altres hospitals de Catalunya.",
