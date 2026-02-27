@@ -5,10 +5,14 @@
   },
   "Agenda": {
     "title": "Agenda del Torneo",
+    "daySelector": "Seleccionar día",
+    "activitiesLabel": "Actividades del día",
+    "noActivities": "No hay actividades programadas para este día.",
     "surprises": "Cantantes, DJ, Zumba y muchas más sorpresas",
     "food": "Can Veris servicio de comida y bebida en Restaurante y en el Village durante todo el torneo tendremos exposición de algunas marcas.",
     "raffle": "Como cada año se realizará una TOMBOLA SOLIDARIA, en breve podrás hacerte con tus papeletas.",
-    "location": "El torneo se realizará en las instalaciones del Club Esportiu Valldoreix:"
+    "location": "El torneo se realizará en las instalaciones del Club Esportiu Valldoreix:",
+    "allDay": "Todo el día"
   },
   "Contact": {
     "title": "Contacto",

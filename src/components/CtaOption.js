@@ -3,21 +3,21 @@ export default function CtaOption({ title, description, image, imageSide = "left
     return (
         <div className={`w-full mx-auto`}> 
             {/* Mobile: columna única */}
-            <div className="flex flex-col md:hidden w-10/12 mx-auto">
-                <div className="relative w-full aspect-[14/9] rounded-t-lg overflow-hidden bg-foreground">
+            <div className="flex flex-col md:hidden mx-auto">
+                <div className="relative w-full aspect-[14/9] rounded-t-lg overflow-hidden bg-primary-foreground">
                     <div
                         className={`w-full h-full bg-cover bg-center rounded-t-lg mask-b-from-70% mask-b-to-100% ${imgContain ? "object-contain" : "object-cover"}`}
                         style={{ backgroundImage: `url(${image})`, filter: 'brightness(1)' }}
                     />
                 </div>
-                <div className="bg-primary-foreground rounded-b-lg px-4 pb-4 md:p-4 flex flex-col items-stretch">
+                <div className="bg-primary-foreground rounded-b-lg px-4 pb-4 md:p-4 flex flex-col items-stretch pt-2">
                     <h3 className="text-2xl font-bold mb-2 text-primary text-center">{title}</h3>
                     <p className="text-sm text-primary mb-2 text-center">{description}</p>
                     <div className="flex justify-center w-full mt-auto text-accent-contrast ">
                         <a
                             href={buttonHref}
-                            className={`px-5 py-2 rounded-full text-accent-contrast text-center font-semibold transition-all duration-200 max-w-40 hover:scale-110 hover:shadow-xl ${buttonClassName}`}
-                            style={{ background: 'var(--color-accent-gradient)' }}
+                            className={`px-5 py-2 rounded-full text-accent-contrast text-center font-semibold transition-all duration-200  hover:scale-110 hover:shadow-xl ${buttonClassName}`}
+                            style={{ background: 'var(--color-accent)' }}
                         >
                             {buttonText}
                         </a>
@@ -38,7 +38,7 @@ export default function CtaOption({ title, description, image, imageSide = "left
                     <div className="flex justify-end w-full mt-auto text-accent-contrast ">
                         <a
                             href={buttonHref}
-                            className={`px-5 py-2 rounded-full text-accent-contrast text-center font-semibold transition-all duration-200 max-w-60 hover:scale-110 hover:shadow-xl ${buttonClassName}`}
+                            className={`px-5 py-2 rounded-full text-accent-contrast text-center font-semibold transition-all duration-200 hover:scale-110 hover:shadow-xl ${buttonClassName}`}
                             style={{ background: 'var(--color-accent)' }}
                         >
                             {buttonText}

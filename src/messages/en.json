@@ -5,10 +5,14 @@
   },
   "Agenda": {
     "title": "Tournament Schedule",
+    "daySelector": "Select day",
+    "activitiesLabel": "Day activities",
+    "noActivities": "No activities scheduled for this day.",
     "surprises": "Singers, DJ, Zumba and many more surprises",
     "food": "Can Veris food and beverage service at Restaurant and Village. During the entire tournament we will have exhibitions from various brands.",
     "raffle": "As every year, we will hold a SOLIDARITY RAFFLE. You will soon be able to get your tickets.",
-    "location": "The tournament will be held at the facilities of Club Esportiu Valldoreix:"
+    "location": "The tournament will be held at the facilities of Club Esportiu Valldoreix:",
+    "allDay": "All day"
   },
   "Contact": {
     "title": "Contact",

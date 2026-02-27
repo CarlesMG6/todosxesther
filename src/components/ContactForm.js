@@ -69,8 +69,8 @@ export default function ContactForm() {
           <div className="w-full md:hidden flex flex-col items-center relative">
             <div className="relative w-full flex items-center mb-8">
               <img
-                src="/images/txe_logo_gato_txe.png"
-                alt="Hombre al teléfono"
+                src="/images/esther.png"
+                alt="Esther"
                 className="object-cover w-full h-52 rounded-xl object-[50%_55%] md:object-[50%_35%]"
                 style={{ position: 'relative', zIndex: 1 }}
               />
@@ -140,8 +140,8 @@ export default function ContactForm() {
           {/* Columna derecha: imagen simpática solo en desktop */}
           <div className="flex-1 hidden md:flex justify-center items-center">
             <img
-              src="/images/txe_logo_gato_txe.png"
-              alt="Fondo de contacto con entrenamiento"
+              src="/images/esther.png"
+              alt="Esther"
               className="w-96 h-full object-contain rounded-4xl"
               style={{ minWidth: 200 }}
             />

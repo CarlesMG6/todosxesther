@@ -7,32 +7,32 @@ const OPTIONS = [
   {
     titleKey: "CtaSection.options.esther.title",
     descriptionKey: "CtaSection.options.esther.description",
-    image: "/images/txe_logo_gato_txe.png",
-    imgContain: true,
+    image: "/images/esther.png",
+    imgContain: false,
     buttonTextKey: "CtaSection.options.esther.buttonText",
     buttonHref: "/esther",
   },
   {
     titleKey: "CtaSection.options.agenda.title",
     descriptionKey: "CtaSection.options.agenda.description",
-    image: "/images/txe_logo_gato_txe.png",
-    imgContain: true,
+    image: "/images/tennis.png",
+    imgContain: false,
     buttonTextKey: "CtaSection.options.agenda.buttonText",
     buttonHref: "/agenda",
   },
   {
     titleKey: "CtaSection.options.ayudar.title",
     descriptionKey: "CtaSection.options.ayudar.description",
-    image: "/images/txe_logo_gato_txe.png",
-    imgContain: true,
+    image: "/images/rifa.png",
+    imgContain: false,
     buttonTextKey: "CtaSection.options.ayudar.buttonText",
     buttonHref: "/donaciones",
   },
   {
     titleKey: "CtaSection.options.contacto.title",
     descriptionKey: "CtaSection.options.contacto.description",
-    image: "/images/txe_logo_gato_txe.png",
-    imgContain: true,
+    image: "/images/concert.png",
+    imgContain: false,
     buttonTextKey: "CtaSection.options.contacto.buttonText",
     buttonHref: "/contacto",
   },
@@ -42,7 +42,7 @@ export default function CtaSection() {
   const t = useTranslations();
 
   return (
-    <section id="servicios-section" className="w-full flex flex-col items-center text-foreground mb-36 md:mb-28">
+    <section id="servicios-section" className="w-full flex flex-col items-center text-foreground">
       {/* <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center">Titulo</h2>
       <p className="md:w-full w-10/12 text-md text-center mb-8 max-w-2xl">
         Subtítulo
