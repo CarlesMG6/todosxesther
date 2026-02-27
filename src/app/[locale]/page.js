@@ -17,7 +17,7 @@ export default function Home() {
         - Mensajito de se tiene en cuenta tu disponibilidad horaria y se flexibiliza para que puedas participar.
       */}
       <Hero/>
-      <main className="flex grow w-full flex-col items-center justify-between py-32 px-16 ">
+      <main className="flex grow w-full flex-col items-center justify-between py-8 px-4">
         <CtaSection />
         {/* call to action (CTA) a quien es esther - descubre la historia de Esther */}
         {/* call to action (CTA) a donaciones - ¿Como puedo ayudar?*/}

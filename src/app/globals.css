@@ -2,10 +2,12 @@
 
 :root {
   --background: #f0f0f0;
+  --card: #ffffff;
 
   --primary: #0c0c0c;
-  --secondary: #1a1a1a;
+  --primary-mute: oklch(70.7% 0.022 261.325);
   --primary-foreground: #A896C5;
+  --secondary: oklch(37.3% 0.034 259.733);
 
   --pale-pink: #f3ebff;
   --pale-orange: #ffefe6;
@@ -20,8 +22,10 @@
   --color-pale-orange: var(--pale-orange);
   --color-accent: var(--accent);
   --color-primary: var(--primary);
-  --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-primary-mute: var(--primary-mute);
+  --color-secondary: var(--secondary);
+  --color-card: var(--card);
   --color-accent-contrast: var(--accent-contrast);
   --font-montserrat: var(--font-montserrat);
 }
