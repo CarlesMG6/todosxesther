@@ -82,7 +82,8 @@ export default function Donations() {
             title={t('padelTitle')}
             description={t('padelDesc')}
             cta={t('padelCta')}
-            href="/#"
+            href="https://www.xporty.com/tournaments/4442075-torneo-padel-todos-x-esther"
+            external
           />
 
           {/* Tenis */}
@@ -91,7 +92,8 @@ export default function Donations() {
             title={t('tennisTitle')}
             description={t('tennisDesc')}
             cta={t('tennisCta')}
-            href="/#"
+            href="https://www.xporty.com/tournaments/4625543-torneo-tenis-todos-x-esther"
+            external
           />
 
           {/* Pala 0 */}
