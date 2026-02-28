@@ -64,14 +64,14 @@ export default function ContactForm() {
   return (
     <div id="contact-section" className="flex flex-col items-center w-full">
       <div className="flex flex-col items-center">
-        <section className="w-full max-w-6xl mx-auto rounded-xl px-8 pb-8 flex flex-col md:flex-row items-center bg-background">
+        <section className="w-full max-w-6xl mx-auto rounded-xl px-8 pb-8 flex flex-col lg:flex-row items-center bg-background">
           {/* Mobile: imagen arriba con difuminado, luego contenido. Desktop: dos columnas */}
-          <div className="w-full md:hidden flex flex-col items-center relative">
+          <div className="w-full lg:hidden flex flex-col items-center relative">
             <div className="relative w-full flex items-center mb-8">
               <img
                 src="/images/esther.png"
                 alt="Esther"
-                className="object-cover w-full h-52 rounded-xl object-[50%_55%] md:object-[50%_35%]"
+                className="object-cover w-full h-52 rounded-xl object-[50%_55%] lg:object-[50%_35%]"
                 style={{ position: 'relative', zIndex: 1 }}
               />
             </div>
@@ -138,7 +138,7 @@ export default function ContactForm() {
             </form>
           </div>
           {/* Columna derecha: imagen simpática solo en desktop */}
-          <div className="flex-1 hidden md:flex justify-center items-center">
+          <div className="flex-1 hidden lg:flex justify-center items-center">
             <img
               src="/images/esther.png"
               alt="Esther"

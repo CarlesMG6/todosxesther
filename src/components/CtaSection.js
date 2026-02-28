@@ -44,7 +44,7 @@ export default function CtaSection() {
   return (
     <section id="servicios-section" className="w-full flex flex-col items-center text-foreground">
       {/* <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center">Titulo</h2>
-      <p className="md:w-full w-10/12 text-md text-center mb-8 max-w-2xl">
+      <p className="lg:w-full w-10/12 text-md text-center mb-8 max-w-2xl">
         Subtítulo
       </p> */}
       <div className="flex flex-col flex-wrap gap-8 justify-center item-center w-full max-w-4xl">

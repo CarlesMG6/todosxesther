@@ -21,9 +21,9 @@ export default function Agenda() {
                 {t('title')}
             </h1>
 
-            <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
+            <div className="flex flex-col lg:flex-row lg:gap-6 lg:items-start">
                 {/* Mobile: horizontal scroll carousel */}
-                <div className="relative md:hidden">
+                <div className="relative lg:hidden">
                     {/* Right fade */}
                     {/* <div className="pointer-events-none absolute right-0 top-0 h-full w-8 z-10 bg-linear-to-l from-background to-transparent" /> */}
                     <nav
@@ -49,7 +49,7 @@ export default function Agenda() {
                 {/* Desktop: vertical sidebar (1/4 width) */}
                 <nav
                     aria-label={t('daySelector')}
-                    className="hidden md:flex md:flex-col md:gap-2 md:w-1/4 md:sticky md:top-4"
+                    className="hidden lg:flex lg:flex-col lg:gap-2 lg:w-1/4 lg:sticky lg:top-4"
                 >
                     {AGENDA_DAYS.map((day) => (
                         <AgendaDayCard

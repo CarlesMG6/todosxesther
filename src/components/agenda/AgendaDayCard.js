@@ -29,9 +29,9 @@ export default function AgendaDayCard({ date, locale, isActive, onClick }) {
             className={[
                 'flex flex-col items-center justify-center rounded-xl px-3 py-3 transition-all duration-200 cursor-pointer select-none hover:scale-105',
                 // Mobile: fixed width so the carousel scrolls nicely
-                'min-w-18 md:min-w-0',
+                'min-w-18 lg:min-w-0',
                 // Desktop: full width of the sidebar column
-                'md:w-full md:flex-row md:justify-start md:gap-4 md:px-4 md:py-3',
+                'lg:w-full lg:flex-row lg:justify-start lg:gap-4 lg:px-4 lg:py-3',
                 isActive
                     ? 'bg-accent text-accent-contrast shadow-md'
                     : 'bg-card text-secondary hover:bg-accent/10 hover:text-accent',
@@ -39,12 +39,12 @@ export default function AgendaDayCard({ date, locale, isActive, onClick }) {
             aria-pressed={isActive}
         >
             {/* Day number */}
-            <span className="text-3xl font-extrabold leading-none md:text-2xl">
+            <span className="text-3xl font-extrabold leading-none lg:text-2xl">
                 {dayNumber}
             </span>
 
             {/* Day name + month */}
-            <span className="flex flex-col items-center md:items-start mt-1 md:mt-0">
+            <span className="flex flex-col items-center lg:items-start mt-1 lg:mt-0">
                 <span className="text-xs font-semibold uppercase tracking-wide leading-tight">
                     {dayNameCapitalized}
                 </span>

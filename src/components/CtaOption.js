@@ -1,16 +1,16 @@
 export default function CtaOption({ title, description, image, imageSide = "left", buttonText = "Descubre más", buttonHref = "/services", buttonClassName = "", imgContain = false }) {
-    const offsetClass = imageSide === "left" ? "md:mr-24" : "md:ml-24";
+    const offsetClass = imageSide === "left" ? "lg:mr-24" : "lg:ml-24";
     return (
         <div className={`w-full mx-auto`}> 
             {/* Mobile: columna única */}
-            <div className="flex flex-col md:hidden mx-auto">
+            <div className="flex flex-col lg:hidden mx-auto">
                 <div className="relative w-full aspect-[14/9] rounded-t-lg overflow-hidden bg-primary-foreground">
                     <div
                         className={`w-full h-full bg-cover bg-center rounded-t-lg mask-b-from-70% mask-b-to-100% ${imgContain ? "object-contain" : "object-cover"}`}
                         style={{ backgroundImage: `url(${image})`, filter: 'brightness(1)' }}
                     />
                 </div>
-                <div className="bg-primary-foreground rounded-b-lg px-4 pb-4 md:p-4 flex flex-col items-stretch pt-2">
+                <div className="bg-primary-foreground rounded-b-lg px-4 pb-4 lg:p-4 flex flex-col items-stretch pt-2">
                     <h3 className="text-2xl font-bold mb-2 text-primary text-center">{title}</h3>
                     <p className="text-sm text-primary mb-2 text-center">{description}</p>
                     <div className="flex justify-center w-full mt-auto text-accent-contrast ">
@@ -25,7 +25,7 @@ export default function CtaOption({ title, description, image, imageSide = "left
                 </div>
             </div>
             {/* Desktop: dos columnas */}
-            <div className={`hidden md:flex flex-row w-full h-64 items-center gap-4 ${imageSide === "right" ? "flex-row-reverse" : ""} ${offsetClass}`}> 
+            <div className={`hidden lg:flex flex-row w-full h-64 items-center gap-4 ${imageSide === "right" ? "flex-row-reverse" : ""} ${offsetClass}`}> 
                 <div className="aspect-[14/9] h-full rounded-lg">
                     <div
                         className={`w-full h-full rounded-lg bg-center ${imgContain ? "bg-contain" : "bg-cover"}`}

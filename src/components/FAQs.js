@@ -14,7 +14,7 @@ const FAQS = [
 
 function FAQItem({ q, a, open, onClick }) {
 	return (
-		<div className="w-10/12 md:w-full mx-auto rounded-xl bg-primary-foreground shadow mb-4  transition-all hover:bg-primary-foreground/80 hover:scale-105 hover:shadow-xl">
+		<div className="w-10/12 lg:w-full mx-auto rounded-xl bg-primary-foreground shadow mb-4  transition-all hover:bg-primary-foreground/80 hover:scale-105 hover:shadow-xl">
 			<button
 				className="w-full flex justify-between items-center px-6 py-4 text-lg font-semibold text-primary focus:outline-none text-left"
 				onClick={onClick}

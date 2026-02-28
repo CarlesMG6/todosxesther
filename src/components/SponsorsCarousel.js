@@ -41,23 +41,23 @@ export default function SponsorsCarousel() {
 
   return (
     <section className="w-full py-10 bg-white overflow-hidden">
-      {/* <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8 text-primary">
+      {/* <h2 className="text-2xl lg:text-3xl font-semibold text-center mb-8 text-primary">
         {t('title')}
       </h2> */}
 
       <div className="relative w-full">
         {/* Gradientes laterales para efecto fade-out */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-16 md:w-24 z-10 bg-linear-to-r from-white to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-16 md:w-24 z-10 bg-linear-to-l from-white to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-16 lg:w-24 z-10 bg-linear-to-r from-white to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-16 lg:w-24 z-10 bg-linear-to-l from-white to-transparent" />
 
-        <div className="flex animate-scroll md:gap-12 w-max hover:[animation-play-state:paused]">
+        <div className="flex animate-scroll lg:gap-12 w-max hover:[animation-play-state:paused]">
           {duplicated.map((sponsor, idx) => (
             <a
               key={`${sponsor.name}-${idx}`}
               href={sponsor.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="shrink-0 flex items-center justify-center h-16 w-40 md:h-24 md:w-48 md:grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
+              className="shrink-0 flex items-center justify-center h-16 w-40 lg:h-24 lg:w-48 lg:grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
               title={sponsor.name}
             >
               <Image

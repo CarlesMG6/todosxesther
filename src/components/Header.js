@@ -56,7 +56,7 @@ export default function Header() {
             alt="Logo de Todosxesther"
             width={160}         
             height={40}
-            className="h-20 w-auto md:h-24 object-contain" 
+            className="h-20 w-auto lg:h-24 object-contain" 
             priority
           />
         </Link>
