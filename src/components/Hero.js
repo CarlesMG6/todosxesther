@@ -46,17 +46,17 @@ export default function Hero() {
               <h1 className="text-3xl lg:text-5xl font-semibold mb-2 text-accent uppercase tracking-wider">
                 {t('title')}
               </h1>
-              <p className="text-base lg:text-2xl font-semibold text-secondary mb-3">
+              <p className="text-base lg:text-2xl font-medium text-secondary mb-3 lg:mb-6 uppercase tracking-widest">
                 {t('description')}
               </p>
-              <p className="text-base lg:text-2xl font-semibold text-secondary">
+              <p className="text-base lg:text-2xl font-medium text-secondary tracking-widest lg:mb-2">
                 {t('dates')}
               </p>
               <a
                 href={LOCATION_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-base lg:text-2xl font-medium text-primary hover:text-accent transition-colors mt-1"
+                className="inline-flex items-center gap-1 text-base lg:text-2xl tracking-widestfont-medium text-primary hover:text-accent transition-colors mt-1"
               >
                 <MapPin size={24} />
                 {t('location')}
