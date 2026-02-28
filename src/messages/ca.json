@@ -1,4 +1,15 @@
 {
+  "Hero": {
+    "title": "Torneig solidari de pàdel i tennis",
+    "description": "Per la malaltia de Corea de Huntington",
+    "cta": "Vull participar",
+    "modalTitle": "A quin torneig vols participar?",
+    "padel": "Pàdel",
+    "tennis": "Tennis",
+    "padelCategories": "Categories: Masculina, Femenina, Mixta i Infantil",
+    "tennisCategories": "Categories: Masculina, Femenina i Infantil",
+    "signUp": "Apuntar-m'hi"
+  },
   "Sponsors": {
     "title": "Els nostres Sponsors"
   },

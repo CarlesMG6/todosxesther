@@ -1,4 +1,15 @@
 {
+  "Hero": {
+    "title": "Torneo solidario de pádel y tenis",
+    "description": "Por la enfermedad de Corea de Huntington",
+    "cta": "Quiero participar",
+    "modalTitle": "¿En qué torneo quieres participar?",
+    "padel": "Pádel",
+    "tennis": "Tenis",
+    "padelCategories": "Categorías: Masculina, Femenina, Mixta e Infantil",
+    "tennisCategories": "Categorías: Masculina, Femenina e Infantil",
+    "signUp": "Apuntarme"
+  },
   "Home": {
     "title": "Todos por Esther",
     "cta": "Contáctanos"

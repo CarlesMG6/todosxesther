@@ -1,4 +1,15 @@
 {
+  "Hero": {
+    "title": "Charity paddle and tennis tournament",
+    "description": "For Huntington's disease",
+    "cta": "I want to participate",
+    "modalTitle": "Which tournament do you want to join?",
+    "padel": "Paddle",
+    "tennis": "Tennis",
+    "padelCategories": "Categories: Men's, Women's, Mixed & Youth",
+    "tennisCategories": "Categories: Men's, Women's & Youth",
+    "signUp": "Sign up"
+  },
   "Sponsors": {
     "title": "Our Sponsors"
   },
