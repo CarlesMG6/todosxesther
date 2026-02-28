@@ -69,9 +69,14 @@
   "EstherDescription": {
     "title": "¿Quién es Esther?",
     "bio": "Esther es la persona más alegre y enérgica de nuestro torneo. Actualmente, Esther vive con Corea de Huntington: una enfermedad que no tiene cura. Nuestro objetivo es brindarle todos los cuidados posibles para que su vida sea un poquito más cómoda y más llena de momentos felices.",
+    "quote": "Nuestro objetivo es que Esther siga disfrutando de cada día rodeada de cariño y alegría.",
+    "diseaseTitle": "¿Qué es la Corea de Huntington?",
     "disease": "La Corea de Huntington es una enfermedad neurodegenerativa hereditaria que afecta al cerebro. Se caracteriza por la aparición progresiva de movimientos involuntarios, dificultad para coordinar movimientos, así como cambios en la personalidad. Con el tiempo, estos síntomas se intensifican y pueden interferir de forma significativa en la vida diaria y en la capacidad para realizar actividades cotidianas.",
+    "costsTitle": "Sus cuidados",
     "costs": "Estos cuidados requieren de un esfuerzo económico importante, ya que incluyen atención y adaptaciones que hacen mejorar su bienestar y calidad de vida.",
-    "event": "Por este motivo, organizamos la 4a edición del torneo solidario Todos X Esther para recaudar dinero destinado a esta causa. El 90% del dinero recaudado será donado al cuidado de Esther."
+    "eventTitle": "Nuestro torneo solidario",
+    "event": "Por este motivo, organizamos la 4a edición del torneo solidario Todos X Esther para recaudar dinero destinado a esta causa. El 90% del dinero recaudado será donado al cuidado de Esther.",
+    "cta": "¿Cómo puedo ayudar?"
   },
   "Footer": {
     "helpButton": "¡Quiero ayudar!",

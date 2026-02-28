@@ -72,9 +72,14 @@
   "EstherDescription": {
     "title": "Who is Esther?",
     "bio": "Esther is 48 years old, cheerful, fun, loving, sociable, somewhat nervous and restless. She loves paddle tennis, the sea, and cats... but because of Huntington's disease, she cannot enjoy some of her favorite hobbies. And little by little, this disease will not let her enjoy any of them.",
+    "quote": "Our goal is for Esther to keep enjoying every day surrounded by love and joy.",
+    "diseaseTitle": "What is Huntington's disease?",
     "disease": "It is a hereditary degenerative disease with different stages, with the final one being much harder, as she may find herself unable to communicate and bedridden. Currently, there is no cure, so all we can do is take care of Esther so she feels loved and supported by all of us.",
+    "costsTitle": "Her care",
     "costs": "This care requires increasingly significant financial contributions because it becomes more specific and demanding over time.",
-    "event": "We are organizing the third edition of the solidarity tournament at CEV from March 31 to April 6, 2025 to raise money to care for Esther."
+    "eventTitle": "Our charity tournament",
+    "event": "That is why we are organizing the 4th edition of the Todos X Esther charity tournament to raise money for this cause. 90% of the money raised will be donated to Esther's care.",
+    "cta": "How can I help?"
   },
   "Footer": {
     "helpButton": "I want to help!",
