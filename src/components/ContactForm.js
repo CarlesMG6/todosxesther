@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
+import { useSearchParams } from "next/navigation";
 
 function SuccessPopup({ show, message }) {
   if (!show) return null;
@@ -12,10 +13,18 @@ function SuccessPopup({ show, message }) {
 
 export default function ContactForm() {
   const t = useTranslations('ContactForm');
+  const searchParams = useSearchParams();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [errors, setErrors] = useState({});
   const [showPopup, setShowPopup] = useState(false);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const prefillMessage = searchParams.get('message');
+    if (prefillMessage) {
+      setForm(prev => ({ ...prev, message: prefillMessage }));
+    }
+  }, [searchParams]);
 
   const handleChange = e => {
     setForm({ ...form, [e.target.name]: e.target.value });
