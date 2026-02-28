@@ -4,7 +4,7 @@ import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import SponsorsCarousel from "@/components/SponsorsCarousel";
+import SponsorsCarousel from "../../components/SponsorsCarousel";
 
 export default function Home() {
 

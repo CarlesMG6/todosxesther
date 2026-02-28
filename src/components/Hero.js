@@ -13,7 +13,15 @@ export default function Hero() {
             alt="Logo de Todosxesther"
             width={160}         
             height={40}
-            className="w-full object-cover aspect-3/1 object-[5%_45%]" 
+            className="hidden md:flex w-full object-cover aspect-3/1 object-[5%_45%]" 
+            priority
+          />
+                    <Image
+            src="/images/hero_background2.png"
+            alt="Logo de Todosxesther"
+            width={160}         
+            height={40}
+            className="flex md:hidden w-full object-cover" 
             priority
           />
       </div>
