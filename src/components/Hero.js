@@ -1,15 +1,21 @@
 'use client'
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export default function Hero() {
   const t = useTranslations('Hero');
 
   return (
-      <div className="w-full bg-pale-orange h-96">
-       <div className="w-full h-full flex items-center justify-center text-center">
-        HERO
-       </div>
+      <div className="w-full bg-pale-orange">
+          <Image
+            src="/images/hero_background.png"
+            alt="Logo de Todosxesther"
+            width={160}         
+            height={40}
+            className="w-full object-cover aspect-3/1 object-[5%_45%]" 
+            priority
+          />
       </div>
   );
 }

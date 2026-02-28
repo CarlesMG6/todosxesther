@@ -78,6 +78,9 @@
     "q6": "¿Cómo participo en el sorteo?",
     "a6": "Para participar en el sorteo se podrán comprar boletos presencialmente durante el evento. El sorteo se realizará el último día del evento y se anunciarán los ganadores presencialmente."
   },
+  "Sponsors": {
+    "title": "Nuestros Sponsors"
+  },
   "CtaSection": {
     "options": {
       "esther": {

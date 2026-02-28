@@ -4,6 +4,7 @@ import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import SponsorsCarousel from "@/components/SponsorsCarousel";
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
         - Mensajito de se tiene en cuenta tu disponibilidad horaria y se flexibiliza para que puedas participar.
       */}
       <Hero/>
+      <SponsorsCarousel />
       <main className="flex grow w-full flex-col items-center justify-between py-8 px-4">
         <CtaSection />
         {/* call to action (CTA) a quien es esther - descubre la historia de Esther */}
