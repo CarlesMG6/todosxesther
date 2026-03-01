@@ -5,6 +5,14 @@ import { useTranslations } from "next-intl";
 
 const OPTIONS = [
   {
+    titleKey: "CtaSection.options.ayudar.title",
+    descriptionKey: "CtaSection.options.ayudar.description",
+    image: "/images/rifa.png",
+    imgContain: false,
+    buttonTextKey: "CtaSection.options.ayudar.buttonText",
+    buttonHref: "/donaciones",
+  },
+  {
     titleKey: "CtaSection.options.esther.title",
     descriptionKey: "CtaSection.options.esther.description",
     image: "/images/esther.png",
@@ -19,14 +27,6 @@ const OPTIONS = [
     imgContain: false,
     buttonTextKey: "CtaSection.options.agenda.buttonText",
     buttonHref: "/agenda",
-  },
-  {
-    titleKey: "CtaSection.options.ayudar.title",
-    descriptionKey: "CtaSection.options.ayudar.description",
-    image: "/images/rifa.png",
-    imgContain: false,
-    buttonTextKey: "CtaSection.options.ayudar.buttonText",
-    buttonHref: "/donaciones",
   },
   {
     titleKey: "CtaSection.options.contacto.title",
