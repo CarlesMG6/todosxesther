@@ -31,6 +31,11 @@ const SPONSORS = [
     logo: '/images/sponsors/origen_solar.png',
     url: 'https://www.origensolar.es',
   },
+  {
+    name: 'Agsa',
+    logo: '/images/sponsors/agsa.png',
+    url: 'https://agsa.es/',
+  },
 ];
 
 export default function SponsorsCarousel() {
