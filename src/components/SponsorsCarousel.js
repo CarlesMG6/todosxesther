@@ -22,6 +22,11 @@ const SPONSORS = [
     url: 'https://clubesportiuvalldoreix.com/ca/',
   },
   {
+    name: 'Agsa',
+    logo: '/images/sponsors/agsa.png',
+    url: 'https://agsa.es/',
+  },
+  {
     name: 'Federació Catalana de Pàdel',
     logo: '/images/sponsors/federacio_catalana_padel.png',
     url: 'https://www.fcpadel.cat',
@@ -30,12 +35,7 @@ const SPONSORS = [
     name: 'Origen Solar',
     logo: '/images/sponsors/origen_solar.png',
     url: 'https://www.origensolar.es',
-  },
-  {
-    name: 'Agsa',
-    logo: '/images/sponsors/agsa.png',
-    url: 'https://agsa.es/',
-  },
+  }
 ];
 
 export default function SponsorsCarousel() {
