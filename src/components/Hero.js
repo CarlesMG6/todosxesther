@@ -23,7 +23,7 @@ export default function Hero() {
   return (
     <>
       <section className="relative min-h-screen flex items-center pt-8 pb-20 md:py-20 overflow-hidden bg-background">
-        <div className="max-w-7xl w-full mx-auto px-4 sm:px-8 grid md:grid-cols-12 gap-8 md:gap-14 xl:gap-28 items-center py-12">
+        <div className="w-full mx-auto px-4 sm:px-8 grid md:grid-cols-12 gap-8 md:gap-14 xl:gap-28 items-center py-12">
           {/* Left Column - Content */}
           <div className="md:col-span-7 z-10 items-center justify-center">
             <span className="inline-block px-4 py-1 bg-pale-orange text-orange-900 rounded-full text-xs sm:text-sm font-bold tracking-widest uppercase mb-4 sm:mb-6">
@@ -45,7 +45,7 @@ export default function Hero() {
               </button>
               <button
                 onClick={scrollToAgenda}
-                className="hidden md:flex bg-card text-accent px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold hover:bg-card hover:border-primary/40 transition-all duration-300 cursor-pointer"
+                className="hidden md:flex bg-card text-accent px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
               >
                 {t('agendaCta')}
               </button>
@@ -66,7 +66,7 @@ export default function Hero() {
             </div>
             
             {/* Floating Info Card */}
-            <div className="absolute -bottom-6 sm:-bottom-10 -left-4 sm:-left-10 backdrop-blur-lg bg-card/30 p-4 sm:p-6 lg:p-8 rounded-xl shadow-2xl max-w-70 sm:max-w-xs border border-white/30">
+          <div className="absolute -bottom-6 sm:-bottom-10 -translate-x-1/2 left-1/2 md:translate-0 md:-left-10 backdrop-blur-lg bg-card/30 p-4 sm:p-6 lg:p-8 rounded-xl shadow-2xl max-w-70 w-max sm:max-w-xs border border-white/30 hover:scale-105 transition-transform duration-300">
               <a
                 href={LOCATION_URL}
                 target="_blank"
