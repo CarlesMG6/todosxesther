@@ -147,5 +147,62 @@
         "buttonText": "Contáctanos"
       }
     }
+  },
+  "AgendaActivities": {
+    "act-1-1": {
+      "name": "Inauguración del torneo",
+      "location": "Pista central – CEV",
+      "description": "Bienvenida oficial, presentación de equipos y apertura de la semana solidaria."
+    },
+    "act-1-2": {
+      "name": "Venta de papeletas de la tómbola",
+      "location": "Village – CEV",
+      "description": "Hazte con tus papeletas para la tómbola solidaria del domingo."
+    },
+    "act-1-3": {
+      "name": "Primera ronda de pádel",
+      "location": "Pistas de pádel – CEV",
+      "description": "Inicio de los partidos en todas las categorías."
+    },
+    "act-2-1": {
+      "name": "Partidos de pádel",
+      "location": "Pistas de pádel – CEV",
+      "description": "Continuación de la fase de grupos."
+    },
+    "act-2-2": {
+      "name": "Venta de papeletas de la tómbola",
+      "location": "Village – CEV",
+      "description": "Hazte con tus papeletas para la tómbola solidaria del domingo."
+    },
+    "act-6-1": {
+      "name": "Semifinales",
+      "location": "Pistas de pádel – CEV",
+      "description": "Las semifinales de todas las categorías."
+    },
+    "act-6-2": {
+      "name": "Venta de papeletas de la tómbola",
+      "location": "Village – CEV",
+      "description": "Última oportunidad para comprar papeletas antes del sorteo del domingo."
+    },
+    "act-6-3": {
+      "name": "Gran fiesta solidaria",
+      "location": "Village – CEV",
+      "description": "La gran noche del torneo: música, baile, DJ y mucho más. ¡No te la pierdas!"
+    },
+    "act-7-1": {
+      "name": "Finales",
+      "location": "Pista central – CEV",
+      "description": "Las finales de todas las categorías con aforo libre."
+    },
+    "act-7-2": {
+      "name": "Conciertos y DJ",
+      "location": "CEV",
+      "description": "Conciertos durante el día y música en directo."
+    },
+    "act-7-3": {
+      "name": "Entrega de trofeos y clausura",
+      "location": "Pista central – CEV",
+      "description": "Ceremonia de clausura, entrega de trofeos y discurso de agradecimiento."
+    }
   }
 }

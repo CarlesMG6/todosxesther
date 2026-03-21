@@ -11,8 +11,14 @@ import Image from 'next/image';
  *   untilLabel {string} Translated label for "hasta" / "until" / "fins a"
  */
 export default function AgendaActivityCard({ activity, untilLabel }) {
-    const { startTime, endTime, image, name, location, description } = activity;
+    const { id, startTime, endTime, image } = activity;
     const t = useTranslations('Agenda');
+    const tActivity = useTranslations('AgendaActivities');
+
+    // Get translated content using the activity id
+    const name = tActivity(`${id}.name`);
+    const location = tActivity(`${id}.location`);
+    const description = tActivity(`${id}.description`);
 
     const timeDisplay = startTime ?
     (    endTime

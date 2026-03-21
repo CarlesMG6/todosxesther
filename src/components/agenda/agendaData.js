@@ -4,13 +4,13 @@
  * and an array of activities.
  *
  * Activity fields:
- *   id       – unique string
+ *   id       – unique string (also used as translation key)
  *   startTime – 'HH:MM'
  *   endTime   – 'HH:MM' | null
  *   image     – path under /public (e.g. '/images/tennis.png')
- *   name      – activity title
- *   location  – venue / court
- *   description – one-liner teaser
+ *   
+ * Note: name, location, and description are now translated using the id as key
+ * in AgendaActivities.{id}.{field} from i18n files
  */
 
 export const AGENDA_DAYS = [
@@ -23,25 +23,16 @@ export const AGENDA_DAYS = [
                 startTime: '17:00',
                 endTime: '20:00',
                 image: '/images/concert.png',
-                name: 'Inauguración del torneo',
-                location: 'Pista central – CEV',
-                description: 'Bienvenida oficial, presentación de equipos y apertura de la semana solidaria.',
             },
             {
                 id: 'act-1-2',
                 image: '/images/rifa.png',
-                name: 'Venta de papeletas de la tómbola',
-                location: 'Village – CEV',
-                description: 'Hazte con tus papeletas para la tómbola solidaria del domingo.',
             },
             {
                 id: 'act-1-3',
                 startTime: '18:00',
                 endTime: '22:00',
                 image: '/images/padel.jpg',
-                name: 'Primera ronda de pádel',
-                location: 'Pistas de pádel – CEV',
-                description: 'Inicio de los partidos en todas las categorías.',
             },
             
         ],
@@ -55,16 +46,10 @@ export const AGENDA_DAYS = [
                 startTime: '18:00',
                 endTime: '22:00',
                 image: '/images/padel.jpg',
-                name: 'Partidos de pádel',
-                location: 'Pistas de pádel – CEV',
-                description: 'Continuación de la fase de grupos.',
             },
             {
                 id: 'act-2-2',
                 image: '/images/rifa.png',
-                name: 'Venta de papeletas de la tómbola',
-                location: 'Village – CEV',
-                description: 'Hazte con tus papeletas para la tómbola solidaria del domingo.',
             }
         ],
     },
@@ -77,16 +62,10 @@ export const AGENDA_DAYS = [
                 startTime: '18:00',
                 endTime: '22:00',
                 image: '/images/padel.jpg',
-                name: 'Partidos de pádel',
-                location: 'Pistas de pádel – CEV',
-                description: 'Continuación de la fase de grupos.',
             },
             {
                 id: 'act-2-2',
                 image: '/images/rifa.png',
-                name: 'Venta de papeletas de la tómbola',
-                location: 'Village – CEV',
-                description: 'Hazte con tus papeletas para la tómbola solidaria del domingo.',
             }
         ],
     },
@@ -99,16 +78,10 @@ export const AGENDA_DAYS = [
                 startTime: '18:00',
                 endTime: '22:00',
                 image: '/images/padel.jpg',
-                name: 'Partidos de pádel',
-                location: 'Pistas de pádel – CEV',
-                description: 'Continuación de la fase de grupos.',
             },
             {
                 id: 'act-2-2',
                 image: '/images/rifa.png',
-                name: 'Venta de papeletas de la tómbola',
-                location: 'Village – CEV',
-                description: 'Hazte con tus papeletas para la tómbola solidaria del domingo.',
             }
         ],
     },
@@ -121,16 +94,10 @@ export const AGENDA_DAYS = [
                 startTime: '17:30',
                 endTime: '22:30',
                 image: '/images/padel.jpg',
-                name: 'Partidos de pádel',
-                location: 'Pistas de pádel – CEV',
-                description: 'Continuación de la fase de grupos.',
             },
             {
                 id: 'act-2-2',
                 image: '/images/rifa.png',
-                name: 'Venta de papeletas de la tómbola',
-                location: 'Village – CEV',
-                description: 'Hazte con tus papeletas para la tómbola solidaria del domingo.',
             }
         ],
     },
@@ -143,27 +110,18 @@ export const AGENDA_DAYS = [
                 startTime: '09:00',
                 endTime: '22:45',
                 image: '/images/padel.jpg',
-                name: 'Semifinales',
-                location: 'Pistas de pádel – CEV',
-                description: 'Las semifinales de todas las categorías.',
             },
             {
                 id: 'act-6-2',
                 startTime: '08:00',
                 endTime: '12:00',
                 image: '/images/rifa.png',
-                name: 'Venta de papeletas de la tómbola',
-                location: 'Village – CEV',
-                description: 'Última oportunidad para comprar papeletas antes del sorteo del domingo.',
             },
             {
                 id: 'act-6-3',
                 startTime: '20:00',
                 endTime: '02:00',
                 image: '/images/dj.png',
-                name: 'Gran fiesta solidaria',
-                location: 'Village – CEV',
-                description: 'La gran noche del torneo: música, baile, DJ y mucho más. ¡No te la pierdas!',
             },
         ],
     },
@@ -176,23 +134,14 @@ export const AGENDA_DAYS = [
                 startTime: '09:00',
                 endTime: '15:00',
                 image: '/images/padel.jpg',
-                name: 'Finales',
-                location: 'Pista central – CEV',
-                description: 'Las finales de todas las categorías con aforo libre.',
             },
             {
-                id: 'act-7-3',
+                id: 'act-7-2',
                 image: '/images/concert.png',
-                name: 'Conciertos y DJ',
-                location: 'CEV',
-                description: 'Conciertos durante el día y música en directo.',
             },
             {
                 id: 'act-7-3',
                 image: '/images/trofeo.jpg',
-                name: 'Entrega de trofeos y clausura',
-                location: 'Pista central – CEV',
-                description: 'Ceremonia de clausura, entrega de trofeos y discurso de agradecimiento.',
             },
         ],
     },

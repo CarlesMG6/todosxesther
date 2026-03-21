@@ -147,5 +147,62 @@
         "buttonText": "Contact us"
       }
     }
+  },
+  "AgendaActivities": {
+    "act-1-1": {
+      "name": "Tournament inauguration",
+      "location": "Central court – CEV",
+      "description": "Official welcome, team presentation and opening of the charity week."
+    },
+    "act-1-2": {
+      "name": "Raffle ticket sales",
+      "location": "Village – CEV",
+      "description": "Get your tickets for Sunday's charity raffle."
+    },
+    "act-1-3": {
+      "name": "First round of paddle",
+      "location": "Paddle courts – CEV",
+      "description": "Start of matches in all categories."
+    },
+    "act-2-1": {
+      "name": "Paddle matches",
+      "location": "Paddle courts – CEV",
+      "description": "Continuation of the group stage."
+    },
+    "act-2-2": {
+      "name": "Raffle ticket sales",
+      "location": "Village – CEV",
+      "description": "Get your tickets for Sunday's charity raffle."
+    },
+    "act-6-1": {
+      "name": "Semifinals",
+      "location": "Paddle courts – CEV",
+      "description": "The semifinals of all categories."
+    },
+    "act-6-2": {
+      "name": "Raffle ticket sales",
+      "location": "Village – CEV",
+      "description": "Last chance to buy tickets before Sunday's draw."
+    },
+    "act-6-3": {
+      "name": "Grand charity party",
+      "location": "Village – CEV",
+      "description": "The big night of the tournament: music, dancing, DJ and much more. Don't miss it!"
+    },
+    "act-7-1": {
+      "name": "Finals",
+      "location": "Central court – CEV",
+      "description": "The finals of all categories with free admission."
+    },
+    "act-7-2": {
+      "name": "Concerts and DJ",
+      "location": "CEV",
+      "description": "Concerts during the day and live music."
+    },
+    "act-7-3": {
+      "name": "Trophy presentation and closing",
+      "location": "Central court – CEV",
+      "description": "Closing ceremony, trophy presentation and thank you speech."
+    }
   }
 }

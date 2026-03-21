@@ -147,5 +147,62 @@
         "buttonText": "Contacta'ns"
       }
     }
+  },
+  "AgendaActivities": {
+    "act-1-1": {
+      "name": "Inauguració del torneig",
+      "location": "Pista central – CEV",
+      "description": "Benvinguda oficial, presentació d'equips i obertura de la setmana solidària."
+    },
+    "act-1-2": {
+      "name": "Venda de paperetes de la tómbola",
+      "location": "Village – CEV",
+      "description": "Aconsegueix les teves paperetes per a la tómbola solidària del diumenge."
+    },
+    "act-1-3": {
+      "name": "Primera ronda de pàdel",
+      "location": "Pistes de pàdel – CEV",
+      "description": "Inici dels partits en totes les categories."
+    },
+    "act-2-1": {
+      "name": "Partits de pàdel",
+      "location": "Pistes de pàdel – CEV",
+      "description": "Continuació de la fase de grups."
+    },
+    "act-2-2": {
+      "name": "Venda de paperetes de la tómbola",
+      "location": "Village – CEV",
+      "description": "Aconsegueix les teves paperetes per a la tómbola solidària del diumenge."
+    },
+    "act-6-1": {
+      "name": "Semifinals",
+      "location": "Pistes de pàdel – CEV",
+      "description": "Les semifinals de totes les categories."
+    },
+    "act-6-2": {
+      "name": "Venda de paperetes de la tómbola",
+      "location": "Village – CEV",
+      "description": "Última oportunitat per comprar paperetes abans del sorteig del diumenge."
+    },
+    "act-6-3": {
+      "name": "Gran festa solidària",
+      "location": "Village – CEV",
+      "description": "La gran nit del torneig: música, ball, DJ i molt més. No te la perdis!"
+    },
+    "act-7-1": {
+      "name": "Finals",
+      "location": "Pista central – CEV",
+      "description": "Les finals de totes les categories amb aforament lliure."
+    },
+    "act-7-2": {
+      "name": "Concerts i DJ",
+      "location": "CEV",
+      "description": "Concerts durant el dia i música en directe."
+    },
+    "act-7-3": {
+      "name": "Entrega de trofeus i clausura",
+      "location": "Pista central – CEV",
+      "description": "Cerimònia de clausura, entrega de trofeus i discurs d'agraïment."
+    }
   }
 }
