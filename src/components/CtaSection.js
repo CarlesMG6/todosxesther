@@ -7,7 +7,7 @@ const OPTIONS = [
   {
     titleKey: "CtaSection.options.ayudar.title",
     descriptionKey: "CtaSection.options.ayudar.description",
-    image: "/images/rifa.png",
+    image: "/images/help.jpg",
     imgContain: false,
     buttonTextKey: "CtaSection.options.ayudar.buttonText",
     buttonHref: "/donaciones",
