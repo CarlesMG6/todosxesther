@@ -141,7 +141,7 @@ export const AGENDA_DAYS = [
             },
             {
                 id: 'act-7-3',
-                image: '/images/trofeo.jpg',
+                image: '/images/trophy.jpg',
             },
         ],
     },
