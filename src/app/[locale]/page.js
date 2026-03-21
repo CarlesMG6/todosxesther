@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-center bg-background">
       <Header />
-      <div className="flex grow w-full items-center justify-center flex-col mt-24">
+      <div className="flex grow w-full items-center justify-center flex-col mt-20">
       {/* Hero o landing - Bonito con alguna foto o algo 
         - Info sobre el torneo - fecha, lugar, categorías, etc
         - Padel y tennis + Botón apuntarse que redirija a xporty

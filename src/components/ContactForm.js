@@ -78,9 +78,9 @@ export default function ContactForm() {
           <div className="w-full lg:hidden flex flex-col items-center relative">
             <div className="relative w-full flex items-center mb-8">
               <img
-                src="/images/esther.png"
-                alt="Esther"
-                className="object-cover w-full h-52 rounded-xl object-[50%_55%] lg:object-[50%_35%]"
+                src="/images/duda.jpg"
+                alt="Duda"
+                className="object-cover w-full h-52 rounded-xl object-[50%_33%] lg:object-[50%_35%]"
                 style={{ position: 'relative', zIndex: 1 }}
               />
             </div>
@@ -149,8 +149,8 @@ export default function ContactForm() {
           {/* Columna derecha: imagen simpática solo en desktop */}
           <div className="flex-1 hidden lg:flex justify-center items-center">
             <img
-              src="/images/esther.png"
-              alt="Esther"
+              src="/images/duda.jpg"
+              alt="Duda"
               className="w-96 h-full object-contain rounded-4xl"
               style={{ minWidth: 200 }}
             />

@@ -12,7 +12,7 @@ export default function Header() {
   const t = useTranslations();
 
   return (
-    <header className={`fixed w-full bg-primary-foreground top-0 left-0 z-50 h-24`}>
+    <header className={`fixed w-full bg-primary-foreground top-0 left-0 z-50 h-20`}>
       {/* Cabecera principal */}
       <div className="mx-auto w-full px-6 py-8 flex flex-row items-center h-full">
         {/* Mobile menu button */}
@@ -56,7 +56,7 @@ export default function Header() {
             alt="Logo de Todosxesther"
             width={160}         
             height={40}
-            className="h-20 w-auto lg:h-24 object-contain" 
+            className="h-20 w-auto lg:h-20 object-contain" 
             priority
           />
         </Link>

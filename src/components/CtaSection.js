@@ -31,7 +31,7 @@ const OPTIONS = [
   {
     titleKey: "CtaSection.options.contacto.title",
     descriptionKey: "CtaSection.options.contacto.description",
-    image: "/images/concert.png",
+    image: "/images/duda.jpg",
     imgContain: false,
     buttonTextKey: "CtaSection.options.contacto.buttonText",
     buttonHref: "/contacto",
