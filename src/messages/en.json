@@ -3,6 +3,7 @@
     "title": "Charity paddle and tennis tournament",
     "description": "For Huntington's disease",
     "cta": "I want to participate",
+    "agendaCta": "See Schedule",
     "modalTitle": "Which tournament do you want to join?",
     "padel": "Paddle",
     "tennis": "Tennis",
@@ -10,8 +11,15 @@
     "tennisCategories": "Categories: Men's, Women's & Youth",
     "signUp": "Sign up",
     "edition": "4th edition",
+    "editionBadge": "4th Edition",
     "dates": "April 20–26",
-    "location": "Club Esportiu Valldoreix"
+    "location": "Club Esportiu Valldoreix",
+    "headline": "Charity Tournament of",
+    "headlineEmphasis": "Paddle and Tennis",
+    "subtitle": "Join the Charity Paddle and Tennis Tournament at Club Esportiu Valldoreix. From April 20 to 26, every set counts in the fight against Huntington's.",
+    "locationLabel": "Location",
+    "dateLabel": "Date",
+    "dateRange": "April 20 - 26"
   },
   "Sponsors": {
     "title": "Our Sponsors"

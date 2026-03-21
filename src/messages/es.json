@@ -3,6 +3,7 @@
     "title": "Torneo solidario de pádel y tenis",
     "description": "Por la enfermedad de Corea de Huntington",
     "cta": "Quiero participar",
+    "agendaCta": "Ver Programación",
     "modalTitle": "¿En qué torneo quieres participar?",
     "padel": "Pádel",
     "tennis": "Tenis",
@@ -10,8 +11,15 @@
     "tennisCategories": "Categorías: Masculina, Femenina e Infantil",
     "signUp": "Apuntarme",
     "edition": "4ª edición",
+    "editionBadge": "4ª Edición",
     "dates": "Del 20 al 26 de Abril",
-    "location": "Club Esportiu Valldoreix"
+    "location": "Club Esportiu Valldoreix",
+    "headline": "Torneo solidario de",
+    "headlineEmphasis": "Pádel y Tenis",
+    "subtitle": "Torneo solidario Todos X Esther, en busca de recaudar fondos para apoyar a Esther en su lucha contra la Corea de Huntington. Deporte, diversión y solidaridad.",
+    "locationLabel": "Ubicación",
+    "dateLabel": "Fecha",
+    "dateRange": "20 - 26 de Abril"
   },
   "Home": {
     "title": "Todos por Esther",

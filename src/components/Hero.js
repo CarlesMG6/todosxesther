@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { X, MapPin } from 'lucide-react';
+import { X, MapPin, Calendar } from 'lucide-react';
 
 const LOCATION_URL = 'https://www.google.com/maps/place/Club+Deportivo+Valldoreix/@41.504528,2.1571963,33050m/data=!3m1!1e3!4m6!3m5!1s0x12a490d00aa0c3ad:0xac7f463d48e4165d!8m2!3d41.4502467!4d2.0558162!16s%2Fg%2F1td8n7gt?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D';
 const PADEL_URL = 'https://www.xporty.com/tournaments/4442075-torneo-padel-todos-x-esther';
@@ -13,69 +13,94 @@ export default function Hero() {
   const t = useTranslations('Hero');
   const [modalOpen, setModalOpen] = useState(false);
 
+  const scrollToAgenda = () => {
+    const agendaSection = document.getElementById('agenda');
+    if (agendaSection) {
+      agendaSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
-      <div className="relative w-full">
-        {/* Background desktop */}
-        <Image
-          src="/images/hero_background.png"
-          alt="Todos X Esther"
-          width={1800}
-          height={750}
-          className="hidden lg:block w-full object-cover aspect-12/5 object-[20%_60%]"
-          priority
-        />
-        {/* Background mobile */}
-        <Image
-          src="/images/hero_background2.png"
-          alt="Todos X Esther"
-          width={400}
-          height={600}
-          className="block lg:hidden w-full object-cover"
-          priority
-        />
+      <section className="relative min-h-screen flex items-center pt-8 pb-20 md:py-20 overflow-hidden bg-background">
+        <div className="max-w-7xl w-full mx-auto px-4 sm:px-8 grid md:grid-cols-12 gap-8 md:gap-14 xl:gap-28 items-center py-12">
+          {/* Left Column - Content */}
+          <div className="md:col-span-7 z-10 items-center justify-center">
+            <span className="inline-block px-4 py-1 bg-pale-orange text-orange-900 rounded-full text-xs sm:text-sm font-bold tracking-widest uppercase mb-4 sm:mb-6">
+              {t('editionBadge')}
+            </span>
+            <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl tracking-tight leading-[0.95] mb-6 sm:mb-8 text-primary">
+              {t('headline')} <br />
+              <span className="text-accent italic ">{t('headlineEmphasis')}</span>
+            </h1>
+            <p className="text-base md:text-lg xl:text-xl text-secondary max-w-xl mb-8 sm:mb-10 leading-relaxed">
+              {t('subtitle')}
+            </p>
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4">
+              <button
+                onClick={() => setModalOpen(true)}
+                className="bg-accent text-accent-contrast px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
+              >
+                {t('cta')}
+              </button>
+              <button
+                onClick={scrollToAgenda}
+                className="hidden md:flex bg-card text-accent px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold hover:bg-card hover:border-primary/40 transition-all duration-300 cursor-pointer"
+              >
+                {t('agendaCta')}
+              </button>
+            </div>
+          </div>
 
-        {/* Overlay + content */}
-        <div className="absolute inset-0 flex flex-col items-center justify-between pt-6 pb-10 lg:py-12 px-4 overflow-clip">
-          <div className="relative text-center">
-            <div className="absolute inset-0 -m-6 rounded-3xl bg-white/70 blur-2xl pointer-events-none scale-x-150" />
-            <div className="relative">
-              <p className="text-sm lg:text-base font-semibold text-accent/80 uppercase tracking-widest mb-1">
-                {t('edition')}
-              </p>
-              <h1 className="text-3xl lg:text-5xl font-semibold mb-2 text-accent uppercase tracking-wider">
-                {t('title')}
-              </h1>
-              <p className="text-base lg:text-2xl font-medium text-secondary mb-3 lg:mb-6 uppercase tracking-widest">
-                {t('description')}
-              </p>
-              <p className="text-base lg:text-2xl font-medium text-secondary tracking-widest lg:mb-2">
-                {t('dates')}
-              </p>
+          {/* Right Column - Image + Info Card */}
+          <div className="md:col-span-5 relative mt-8 md:mt-0">
+            <div className="aspect-4/5 rounded-xl overflow-hidden shadow-2xl md:rotate-6 hover:rotate-0 transition-transform duration-700">
+              <Image
+                src="/images/padel.jpg"
+                alt="Torneo de pádel"
+                width={800}
+                height={1000}
+                className="w-full h-full object-cover"
+                priority
+              />
+            </div>
+            
+            {/* Floating Info Card */}
+            <div className="absolute -bottom-6 sm:-bottom-10 -left-4 sm:-left-10 backdrop-blur-lg bg-card/30 p-4 sm:p-6 lg:p-8 rounded-xl shadow-2xl max-w-70 sm:max-w-xs border border-white/30">
               <a
                 href={LOCATION_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-base lg:text-2xl tracking-widestfont-medium text-primary hover:text-accent transition-colors mt-1"
+                className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4 group hover:text-accent transition-colors"
               >
-                <MapPin size={24} />
-                {t('location')}
+                <MapPin className="text-accent shrink-0" size={32} strokeWidth={2} />
+                <div>
+                  <p className="font-bold text-xs uppercase tracking-wide text-secondary">
+                    {t('locationLabel')}
+                  </p>
+                  <p className="font-bold text-sm sm:text-base text-primary group-hover:text-accent transition-colors">
+                    {t('location')}
+                  </p>
+                </div>
               </a>
+              <div className="flex items-center gap-3 sm:gap-4">
+                <Calendar className="text-accent shrink-0" size={32} strokeWidth={2} />
+                <div>
+                  <p className="font-bold text-xs uppercase tracking-wide text-secondary">
+                    {t('dateLabel')}
+                  </p>
+                  <p className="font-bold text-sm sm:text-base text-primary">
+                    {t('dateRange')}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-
-
-           <div className="relative">
-            <div className="absolute inset-0 -m-4 rounded-full bg-white/50 blur-2xl pointer-events-none" />
-            <button
-              onClick={() => setModalOpen(true)}
-              className="relative bg-accent text-accent-contrast shadow-white/50 shadow-lg font-semibold text-xl lg:text-3xl py-3 lg:py-5 px-8 lg:px-12 rounded-full hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer"
-            >
-              {t('cta')}
-            </button>
-          </div>
         </div>
-      </div>
+
+        {/* Background Decorative Element */}
+        <div className="absolute top-0 right-0 -z-10 w-1/2 h-full bg-card/30 rounded-l-[100px] sm:rounded-l-[200px] hidden md:block" />
+      </section>
 
       {/* ─── Modal ─── */}
       {modalOpen && (

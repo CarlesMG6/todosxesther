@@ -3,6 +3,7 @@
     "title": "Torneig solidari de pàdel i tennis",
     "description": "Per la malaltia de Corea de Huntington",
     "cta": "Vull participar",
+    "agendaCta": "Veure Programació",
     "modalTitle": "A quin torneig vols participar?",
     "padel": "Pàdel",
     "tennis": "Tennis",
@@ -10,8 +11,15 @@
     "tennisCategories": "Categories: Masculina, Femenina i Infantil",
     "signUp": "Apuntar-m'hi",
     "edition": "4a edició",
+    "editionBadge": "4a Edició",
     "dates": "Del 20 al 26 d'Abril",
-    "location": "Club Esportiu Valldoreix"
+    "location": "Club Esportiu Valldoreix",
+    "headline": "Torneig solidari de",
+    "headlineEmphasis": "Pàdel i Tennis",
+    "subtitle": "Uneix-te al Torneig Solidari de Pàdel i Tennis al Club Esportiu Valldoreix. Del 20 al 26 d'Abril, cada set compta en la lluita contra el Huntington.",
+    "locationLabel": "Ubicació",
+    "dateLabel": "Data",
+    "dateRange": "20 - 26 d'Abril"
   },
   "Sponsors": {
     "title": "Els nostres Sponsors"
