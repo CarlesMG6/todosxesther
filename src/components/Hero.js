@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { useRouter } from '@/i18n/navigation';
 import Image from 'next/image';
 import { X, MapPin, Calendar } from 'lucide-react';
 
@@ -11,18 +12,12 @@ const PADEL_URL = 'https://www.xporty.com/tournaments/8672898-4o-torneo-solidari
 
 export default function Hero() {
   const t = useTranslations('Hero');
+  const router = useRouter();
   const [modalOpen, setModalOpen] = useState(false);
-
-  const scrollToAgenda = () => {
-    const agendaSection = document.getElementById('agenda');
-    if (agendaSection) {
-      agendaSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <>
-      <section className="relative min-h-screen flex items-center pt-8 pb-20 md:py-20 overflow-hidden bg-background">
+      <section className="relative min-h-screen flex items-center pt-8 pb-20 md:py-20 md:px-20 overflow-hidden bg-background">
         <div className="w-full mx-auto px-4 sm:px-8 grid md:grid-cols-12 gap-8 md:gap-14 xl:gap-28 items-center py-12">
           {/* Left Column - Content */}
           <div className="md:col-span-7 z-10 items-center justify-center">
@@ -44,7 +39,7 @@ export default function Hero() {
                 {t('cta')}
               </button>
               <button
-                onClick={scrollToAgenda}
+                onClick={() => router.push('/agenda')}
                 className="hidden md:flex bg-card text-accent px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
               >
                 {t('agendaCta')}

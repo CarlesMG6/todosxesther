@@ -47,7 +47,7 @@ export default function FAQs() {
 	return (
 		<section
 			id="faqs-section"
-			className="w-full max-w-3xl mx-auto py-16 relative"
+			className="w-full max-w-3xl mx-auto pt-16 relative"
 		>
 			<h2 className="text-3xl font-bold mb-8 text-center">
 				{t('title')}

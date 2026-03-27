@@ -100,7 +100,7 @@ export default function ContactForm() {
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 rounded-full bg-primary-foreground focus:outline-none ${errors.name ? 'ring-2 ring-red-500' : ''}`}
+                  className={`w-full px-4 py-2 rounded-xl bg-primary-foreground focus:outline-none ${errors.name ? 'ring-2 ring-red-500' : ''}`}
                   required
                 />
                 {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
@@ -113,7 +113,7 @@ export default function ContactForm() {
                   name="email"
                   value={form.email}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 rounded-full bg-primary-foreground focus:outline-none ${errors.email ? 'ring-2 ring-red-500' : ''}`}
+                  className={`w-full px-4 py-2 rounded-xl bg-primary-foreground focus:outline-none ${errors.email ? 'ring-2 ring-red-500' : ''}`}
                   required
                 />
                 {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
