@@ -6,8 +6,8 @@ import Image from 'next/image';
 import { X, MapPin, Calendar } from 'lucide-react';
 
 const LOCATION_URL = 'https://www.google.com/maps/place/Club+Deportivo+Valldoreix/@41.504528,2.1571963,33050m/data=!3m1!1e3!4m6!3m5!1s0x12a490d00aa0c3ad:0xac7f463d48e4165d!8m2!3d41.4502467!4d2.0558162!16s%2Fg%2F1td8n7gt?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D';
-const PADEL_URL = 'https://www.xporty.com/tournaments/4442075-torneo-padel-todos-x-esther';
-const TENNIS_URL = 'https://www.xporty.com/tournaments/4625543-torneo-tenis-todos-x-esther';
+const TENNIS_URL = 'https://www.xporty.com/tournaments/8714675-4o-torneo-solidario-tenis-txe';
+const PADEL_URL = 'https://www.xporty.com/tournaments/8672898-4o-torneo-solidario-padel-txe';
 
 export default function Hero() {
   const t = useTranslations('Hero');

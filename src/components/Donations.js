@@ -82,7 +82,7 @@ export default function Donations() {
             title={t('padelTitle')}
             description={t('padelDesc')}
             cta={t('padelCta')}
-            href="https://www.xporty.com/tournaments/4442075-torneo-padel-todos-x-esther"
+            href="https://www.xporty.com/tournaments/8672898-4o-torneo-solidario-padel-txe"
             external
           />
 
