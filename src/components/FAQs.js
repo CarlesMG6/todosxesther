@@ -2,17 +2,18 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 const FAQS = [
-	{ q: "q1", a: "a1" },
-	{ q: "q2", a: "a2" },
-	{ q: "q3", a: "a3" },
+	{ q: "q1", a: "a1", linkTo: "/donaciones", linkText: "helpButton" },
+	{ q: "q2", a: "a2", linkTo: "/agenda", linkText: "agendaButton" },
+	{ q: "q3", a: "a3", linkTo: "/agenda", linkText: "agendaButton" },
 	{ q: "q4", a: "a4" },
 	{ q: "q5", a: "a5" },
 	{ q: "q6", a: "a6" }
 ];
 
-function FAQItem({ q, a, open, onClick }) {
+function FAQItem({ q, a, open, onClick, linkTo, linkText }) {
 	return (
 		<div className="w-10/12 lg:w-full mx-auto rounded-xl bg-primary-foreground shadow mb-4  transition-all hover:bg-primary-foreground/80 hover:scale-105 hover:shadow-xl">
 			<button
@@ -32,6 +33,15 @@ function FAQItem({ q, a, open, onClick }) {
 			{open && (
 				<div className="px-6 py-4 text-base text-primary border-t border-primary/10">
 					{a}
+					{linkTo && (
+						<div className="mt-4">
+							<Link href={linkTo}>
+								<button className="px-6 py-2 rounded-full bg-accent text-background font-semibold shadow hover:bg-primary/80 hover:scale-110 hover:shadow-xl transition-all">
+									{linkText}
+								</button>
+							</Link>
+						</div>
+					)}
 				</div>
 			)}
 		</div>
@@ -60,6 +70,8 @@ export default function FAQs() {
 						a={t(faq.a)}
 						open={openIdx === idx}
 						onClick={() => setOpenIdx(openIdx === idx ? null : idx)}
+						linkTo={faq.linkTo}
+						linkText={faq.linkText ? t(faq.linkText) : null}
 					/>
 				))}
 				{!showAll && FAQS.length > 8 && (

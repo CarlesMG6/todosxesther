@@ -121,6 +121,8 @@
   "FAQs": {
     "title": "Preguntes freqüents",
     "showMore": "Mostrar més",
+    "helpButton": "Vull ajudar",
+    "agendaButton": "Veure agenda",
     "q1": "Com puc ajudar?",
     "a1": "Ens pots ajudar de moltes maneres: fent una donació a l'IBAN ES93 21000423990200552994, participant al sorteig, apuntant-te al torneig o mitjançant la pala 0 (pagant l'import del torneig sense participar). Qualsevol ajuda, per petita que sigui, és benvinguda.",
     "q2": "Quan i on se celebra el torneig?",
