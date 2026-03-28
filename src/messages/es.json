@@ -182,7 +182,7 @@
     "act-2-1": {
       "name": "Partidos de pádel",
       "location": "Pistas de pádel – CEV",
-      "description": "Continuación de la fase de grupos."
+      "description": "Partidos de pádel en todas las categorías."
     },
     "act-2-2": {
       "name": "Venta de papeletas de la tómbola",
@@ -197,12 +197,12 @@
     "act-2-4": {
       "name": "Partidos de tenis",
       "location": "Pistas de tenis – CEV",
-      "description": "Continuación de partidos de tenis."
+      "description": "Partidos de tenis en todas las categorías."
     },
     "act-6-1": {
-      "name": "Semifinales",
+      "name": "Semifinales de pádel",
       "location": "Pistas de pádel – CEV",
-      "description": "Las semifinales de todas las categorías."
+      "description": "Las semifinales de pádel de todas las categorías."
     },
     "act-6-2": {
       "name": "Venta de papeletas de la tómbola",
@@ -222,7 +222,7 @@
     "act-7-1": {
       "name": "Finales de pádel",
       "location": "Pista central – CEV",
-      "description": "Las finales de todas las categorías con aforo libre."
+      "description": "Las finales de pádel de todas las categorías con aforo libre."
     },
     "act-7-2": {
       "name": "Conciertos y DJ",

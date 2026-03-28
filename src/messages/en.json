@@ -162,7 +162,7 @@
     "act-1-1": {
       "name": "Tournament inauguration",
       "location": "Central court – CEV",
-      "description": "Official welcomeand opening of the charity week."
+      "description": "Official welcome and opening of the charity week."
     },
     "act-1-2": {
       "name": "Raffle ticket sales",
@@ -182,17 +182,27 @@
     "act-2-1": {
       "name": "Paddle matches",
       "location": "Paddle courts – CEV",
-      "description": "Continuation of the group stage."
+      "description": "Paddle matches in all categories."
     },
     "act-2-2": {
       "name": "Raffle ticket sales",
       "location": "Club Esportiu Valldoreix",
       "description": "Get your tickets for Sunday's charity raffle."
     },
+    "act-2-3": {
+      "name": "Tennis matches",
+      "location": "Tennis courts – CEV",
+      "description": "Tennis matches in all categories."
+    },
+    "act-2-4": {
+      "name": "Tennis matches",
+      "location": "Tennis courts – CEV",
+      "description": "Tennis matches in all categories."
+    },
     "act-6-1": {
-      "name": "Semifinals",
+      "name": "Paddle semifinals",
       "location": "Paddle courts – CEV",
-      "description": "The semifinals of all categories."
+      "description": "The paddle semifinals of all categories."
     },
     "act-6-2": {
       "name": "Raffle ticket sales",
@@ -204,10 +214,15 @@
       "location": "Club Esportiu Valldoreix",
       "description": "The big night of the tournament: music, dancing, DJ and much more. Don't miss it!"
     },
+    "act-6-4": {
+      "name": "Tennis semifinals",
+      "location": "Tennis courts – CEV",
+      "description": "The tennis semifinals of all categories."
+    },
     "act-7-1": {
       "name": "Paddle finals",
       "location": "Central court – CEV",
-      "description": "The finals of all categories with free admission."
+      "description": "The paddle finals of all categories with free admission."
     },
     "act-7-2": {
       "name": "Concerts and DJ",
@@ -222,7 +237,7 @@
     "act-7-4": {
       "name": "Tennis finals",
       "location": "Central court – CEV",
-      "description": "The finals of all categories with free admission."
+      "description": "The tennis finals of all categories with free admission."
     }
   }
 }

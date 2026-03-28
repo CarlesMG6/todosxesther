@@ -182,7 +182,7 @@
     "act-2-1": {
       "name": "Partits de pàdel",
       "location": "Pistes de pàdel – CEV",
-      "description": "Continuació de la fase de grups."
+      "description": "Partits de pàdel en totes les categories."
     },
     "act-2-2": {
       "name": "Venda de paperetes de la tómbola",
@@ -197,12 +197,12 @@
     "act-2-4": {
       "name": "Partits de tennis",
       "location": "Pistes de tennis – CEV",
-      "description": "Continuació de partits de tennis."
+      "description": "Partits de tennis en totes les categories."
     },
     "act-6-1": {
-      "name": "Semifinals",
+      "name": "Semifinals de pàdel",
       "location": "Pistes de pàdel – CEV",
-      "description": "Les semifinals de totes les categories."
+      "description": "Les semifinals de pàdel de totes les categories."
     },
     "act-6-2": {
       "name": "Venda de paperetes de la tómbola",
