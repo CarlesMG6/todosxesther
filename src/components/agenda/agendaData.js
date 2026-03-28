@@ -26,6 +26,7 @@ export const AGENDA_DAYS = [
             },
             {
                 id: 'act-1-2',
+                fullDay: true,
                 image: '/images/rifa.webp',
             },
             {

@@ -35,15 +35,28 @@ const SPONSORS = [
     name: 'Origen Solar',
     logo: '/images/sponsors/origen_solar.png',
     url: 'https://www.origensolar.es',
+  },
+  {
+    name: 'Rovellats',
+    logo: '/images/sponsors/rovellats.png',
+    url: 'https://www.cavarovellats.com/',
+  },
+  {
+    name: 'Recimant',
+    logo: '/images/sponsors/recimant.png',
+    url: 'https://www.recimant.com',
+  },
+  {
+    name: 'Coolchain',
+    logo: '/images/sponsors/coolchain.webp',
+    url: 'https://www.coolchain.es',
+  },
+  {
+    name: 'Go Nomad',
+    logo: '/images/sponsors/gonomad.png',
+    url: 'https://www.gonomad.es',
   }
 ];
-
-// orgien solar
-// agsa
-// gonomad
-// rovellats
-// recimant
-// coolchain
 
 
 export default function SponsorsCarousel() {

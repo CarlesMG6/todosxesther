@@ -11,7 +11,7 @@ import Image from 'next/image';
  *   untilLabel {string} Translated label for "hasta" / "until" / "fins a"
  */
 export default function AgendaActivityCard({ activity, untilLabel }) {
-    const { id, startTime, endTime, image } = activity;
+    const { id, startTime, endTime, fullDay, image } = activity;
     const t = useTranslations('Agenda');
     const tActivity = useTranslations('AgendaActivities');
 
@@ -24,7 +24,7 @@ export default function AgendaActivityCard({ activity, untilLabel }) {
     (    endTime
         ? `${startTime} – ${endTime}`
         : startTime
-    ) : t('allDay');
+    ) : fullDay ? t('allDay') : t('timeTBD');
 
 
     return (
@@ -43,6 +43,7 @@ export default function AgendaActivityCard({ activity, untilLabel }) {
             {/* Content */}
             <div className="flex flex-col justify-center gap-1 py-3 pr-4">
                 {/* Time badge */}
+                {/* 
                 <span className="inline-flex items-center gap-1 text-xs font-semibold text-accent bg-accent/10 rounded-full px-2 py-0.5 w-fit">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +61,7 @@ export default function AgendaActivityCard({ activity, untilLabel }) {
                     </svg>
                     {timeDisplay}
                 </span>
-
+                */}
                 {/* Activity name */}
                 <h3 className="text-sm font-bold text-primary leading-snug sm:text-base">
                     {name}
