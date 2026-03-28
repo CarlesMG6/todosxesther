@@ -83,7 +83,7 @@ export default function SponsorsCarousel() {
               href={sponsor.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="shrink-0 flex items-center justify-center h-16 w-40 lg:h-24 lg:w-48 lg:grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
+              className="shrink-0 flex items-center justify-center h-16 w-40 lg:h-24 lg:w-48 md:grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
               title={sponsor.name}
             >
               <Image
