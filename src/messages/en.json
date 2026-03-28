@@ -61,7 +61,7 @@
     "donationDesc": "Make a transfer to the association's IBAN. Any contribution, no matter how small, makes a difference.",
     "copyIban": "Copy IBAN",
     "talentTitle": "Share your talent",
-    "talentDesc": "Do you have a special talent — music, cooking, sports, design…? Help us with the organization! Tell us what you can do.",
+    "talentDesc": "Do you have a special talent (music, cooking, sports…) Help us with the organization! Tell us what you can do.",
     "talentCta": "Offer my talent",
     "talentPrefill": "Hi! I'd like to help with my talent. I can offer: ",
     "companyTitle": "Collaborate as a company",
@@ -162,16 +162,21 @@
     "act-1-1": {
       "name": "Tournament inauguration",
       "location": "Central court – CEV",
-      "description": "Official welcome, team presentation and opening of the charity week."
+      "description": "Official welcomeand opening of the charity week."
     },
     "act-1-2": {
       "name": "Raffle ticket sales",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "Get your tickets for Sunday's charity raffle."
     },
     "act-1-3": {
       "name": "First round of paddle",
       "location": "Paddle courts – CEV",
+      "description": "Start of matches in all categories."
+    },
+    "act-1-4": {
+      "name": "First round of tennis",
+      "location": "Tennis courts – CEV",
       "description": "Start of matches in all categories."
     },
     "act-2-1": {
@@ -181,7 +186,7 @@
     },
     "act-2-2": {
       "name": "Raffle ticket sales",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "Get your tickets for Sunday's charity raffle."
     },
     "act-6-1": {
@@ -191,16 +196,16 @@
     },
     "act-6-2": {
       "name": "Raffle ticket sales",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "Last chance to buy tickets before Sunday's draw."
     },
     "act-6-3": {
       "name": "Grand charity party",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "The big night of the tournament: music, dancing, DJ and much more. Don't miss it!"
     },
     "act-7-1": {
-      "name": "Finals",
+      "name": "Paddle finals",
       "location": "Central court – CEV",
       "description": "The finals of all categories with free admission."
     },
@@ -213,6 +218,11 @@
       "name": "Trophy presentation and closing",
       "location": "Central court – CEV",
       "description": "Closing ceremony, trophy presentation and thank you speech."
+    },
+    "act-7-4": {
+      "name": "Tennis finals",
+      "location": "Central court – CEV",
+      "description": "The finals of all categories with free admission."
     }
   }
 }

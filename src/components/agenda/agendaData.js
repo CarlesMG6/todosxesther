@@ -35,6 +35,12 @@ export const AGENDA_DAYS = [
                 endTime: '22:00',
                 image: '/images/padel.jpg',
             },
+            {
+                id: 'act-1-4',
+                startTime: '18:00',
+                endTime: '22:00',
+                image: '/images/tennis.png'
+            }
             
         ],
     },
@@ -47,6 +53,12 @@ export const AGENDA_DAYS = [
                 startTime: '18:00',
                 endTime: '22:00',
                 image: '/images/padel.jpg',
+            },
+            {
+                id: 'act-2-3',
+                startTime: '18:00',
+                endTime: '22:00',
+                image: '/images/tennis.png'
             },
             {
                 id: 'act-2-2',
@@ -65,6 +77,12 @@ export const AGENDA_DAYS = [
                 image: '/images/padel.jpg',
             },
             {
+                id: 'act-2-4',
+                startTime: '18:00',
+                endTime: '22:00',
+                image: '/images/tennis.png'
+            },
+            {
                 id: 'act-2-2',
                 image: '/images/rifa.webp',
             }
@@ -79,6 +97,12 @@ export const AGENDA_DAYS = [
                 startTime: '18:00',
                 endTime: '22:00',
                 image: '/images/padel.jpg',
+            },
+            {
+                id: 'act-2-4',
+                startTime: '18:00',
+                endTime: '22:00',
+                image: '/images/tennis.png'
             },
             {
                 id: 'act-2-2',
@@ -97,6 +121,12 @@ export const AGENDA_DAYS = [
                 image: '/images/padel.jpg',
             },
             {
+                id: 'act-2-4',
+                startTime: '17:30',
+                endTime: '22:30',
+                image: '/images/tennis.png'
+            },
+            {
                 id: 'act-2-2',
                 image: '/images/rifa.webp',
             }
@@ -111,6 +141,12 @@ export const AGENDA_DAYS = [
                 startTime: '09:00',
                 endTime: '22:45',
                 image: '/images/padel.jpg',
+            },
+            {
+                id: 'act-6-4',
+                startTime: '09:00',
+                endTime: '22:45',
+                image: '/images/tennis.png'
             },
             {
                 id: 'act-6-2',
@@ -135,6 +171,12 @@ export const AGENDA_DAYS = [
                 startTime: '09:00',
                 endTime: '15:00',
                 image: '/images/padel.jpg',
+            },
+            {
+                id: 'act-7-4',
+                startTime: '09:00',
+                endTime: '15:00',
+                image: '/images/tennis.png'
             },
             {
                 id: 'act-7-2',

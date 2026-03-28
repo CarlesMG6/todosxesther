@@ -61,7 +61,7 @@
     "donationDesc": "Fes una transferència a l'IBAN de l'associació. Qualsevol aportació, per petita que sigui, marca la diferència.",
     "copyIban": "Copiar IBAN",
     "talentTitle": "Comparteix el teu talent",
-    "talentDesc": "Si tens algun talent especial —música, cuina, esport, disseny…— ajuda'ns amb l'organització! Explica'ns què saps fer.",
+    "talentDesc": "Si tens algun talent especial (música, cuina, esport…) ajuda'ns amb l'organització! Explica'ns què saps fer.",
     "talentCta": "Oferir el meu talent",
     "talentPrefill": "Hola! Vull ajudar amb el meu talent. Puc oferir: ",
     "companyTitle": "Col·labora com a empresa",
@@ -162,16 +162,21 @@
     "act-1-1": {
       "name": "Inauguració del torneig",
       "location": "Pista central – CEV",
-      "description": "Benvinguda oficial, presentació d'equips i obertura de la setmana solidària."
+      "description": "Benvinguda oficial i obertura de la setmana solidària."
     },
     "act-1-2": {
       "name": "Venda de paperetes de la tómbola",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "Aconsegueix les teves paperetes per a la tómbola solidària del diumenge."
     },
     "act-1-3": {
       "name": "Primera ronda de pàdel",
       "location": "Pistes de pàdel – CEV",
+      "description": "Inici dels partits en totes les categories."
+    },
+    "act-1-4": {
+      "name": "Primera ronda de tennis",
+      "location": "Pistes de tennis – CEV",
       "description": "Inici dels partits en totes les categories."
     },
     "act-2-1": {
@@ -181,8 +186,18 @@
     },
     "act-2-2": {
       "name": "Venda de paperetes de la tómbola",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "Aconsegueix les teves paperetes per a la tómbola solidària del diumenge."
+    },
+    "act-2-3": {
+      "name": "Partits de tennis",
+      "location": "Pistes de tennis – CEV",
+      "description": "Partits de tennis en totes les categories."
+    },
+    "act-2-4": {
+      "name": "Partits de tennis",
+      "location": "Pistes de tennis – CEV",
+      "description": "Continuació de partits de tennis."
     },
     "act-6-1": {
       "name": "Semifinals",
@@ -191,16 +206,21 @@
     },
     "act-6-2": {
       "name": "Venda de paperetes de la tómbola",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "Última oportunitat per comprar paperetes abans del sorteig del diumenge."
     },
     "act-6-3": {
       "name": "Gran festa solidària",
-      "location": "Village – CEV",
+      "location": "Club Esportiu Valldoreix",
       "description": "La gran nit del torneig: música, ball, DJ i molt més. No te la perdis!"
     },
+    "act-6-4": {
+      "name": "Semifinals de tennis",
+      "location": "Pistes de tennis – CEV",
+      "description": "Les semifinals de tennis de totes les categories."
+    },
     "act-7-1": {
-      "name": "Finals",
+      "name": "Finals de pàdel",
       "location": "Pista central – CEV",
       "description": "Les finals de totes les categories amb aforament lliure."
     },
@@ -213,6 +233,11 @@
       "name": "Entrega de trofeus i clausura",
       "location": "Pista central – CEV",
       "description": "Cerimònia de clausura, entrega de trofeus i discurs d'agraïment."
+    },
+    "act-7-4": {
+      "name": "Finals de tennis",
+      "location": "Pistes de tennis – CEV",
+      "description": "Les finals de tennis de totes les categories."
     }
   }
 }
