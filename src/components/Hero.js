@@ -48,7 +48,7 @@ export default function Hero() {
           </div>
 
           {/* Right Column - Image + Info Card */}
-          <div className="md:col-span-5 relative mt-4 md:mt-0 flex max-h-3/4">
+          <div className="md:col-span-5 relative mx-auto mt-4 md:mt-0 md:mx-0 flex max-h-3/4">
             <div className="aspect-4/5 rounded-xl overflow-hidden shadow-2xl md:rotate-6 hover:rotate-0 transition-transform duration-700">
               <Image
                 src="/images/padel.jpg"
