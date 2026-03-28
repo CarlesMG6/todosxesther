@@ -121,7 +121,13 @@ export default function Hero() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div className="flex flex-col items-center bg-pale-orange rounded-xl p-6 gap-4">
-                <span className="text-4xl">🏸</span>
+                <Image
+                  src="/images/raqueta-de-padel.png"
+                  alt="Pádel"
+                  width={64}
+                  height={64}
+                  className="w-16 h-16 object-contain"
+                />
                 <h3 className="text-xl font-bold text-primary">{t('padel')}</h3>
                 <p className="text-sm text-secondary text-center leading-relaxed">
                   {t('padelCategories')}
@@ -137,7 +143,13 @@ export default function Hero() {
               </div>
 
               <div className="flex flex-col items-center bg-pale-pink rounded-xl p-6 gap-4">
-                <span className="text-4xl">🎾</span>
+                <Image
+                  src="/images/tenis.png"
+                  alt="Tenis"
+                  width={64}
+                  height={64}
+                  className="w-16 h-16 object-contain"
+                />
                 <h3 className="text-xl font-bold text-primary">{t('tennis')}</h3>
                 <p className="text-sm text-secondary text-center leading-relaxed">
                   {t('tennisCategories')}
