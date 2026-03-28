@@ -38,6 +38,14 @@ const SPONSORS = [
   }
 ];
 
+// orgien solar
+// agsa
+// gonomad
+// rovellats
+// recimant
+// coolchain
+
+
 export default function SponsorsCarousel() {
   const t = useTranslations('Sponsors');
 

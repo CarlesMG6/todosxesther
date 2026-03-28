@@ -26,7 +26,7 @@ export const AGENDA_DAYS = [
             },
             {
                 id: 'act-1-2',
-                image: '/images/rifa.png',
+                image: '/images/rifa.webp',
             },
             {
                 id: 'act-1-3',
@@ -49,7 +49,7 @@ export const AGENDA_DAYS = [
             },
             {
                 id: 'act-2-2',
-                image: '/images/rifa.png',
+                image: '/images/rifa.webp',
             }
         ],
     },
@@ -65,7 +65,7 @@ export const AGENDA_DAYS = [
             },
             {
                 id: 'act-2-2',
-                image: '/images/rifa.png',
+                image: '/images/rifa.webp',
             }
         ],
     },
@@ -81,7 +81,7 @@ export const AGENDA_DAYS = [
             },
             {
                 id: 'act-2-2',
-                image: '/images/rifa.png',
+                image: '/images/rifa.webp',
             }
         ],
     },
@@ -97,7 +97,7 @@ export const AGENDA_DAYS = [
             },
             {
                 id: 'act-2-2',
-                image: '/images/rifa.png',
+                image: '/images/rifa.webp',
             }
         ],
     },
@@ -115,7 +115,7 @@ export const AGENDA_DAYS = [
                 id: 'act-6-2',
                 startTime: '08:00',
                 endTime: '12:00',
-                image: '/images/rifa.png',
+                image: '/images/rifa.webp',
             },
             {
                 id: 'act-6-3',

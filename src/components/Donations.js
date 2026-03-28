@@ -101,6 +101,8 @@ export default function Donations() {
             icon={<Heart size={24} />}
             title={t('pala0Title')}
             description={t('pala0Desc')}
+            cta={t('pala0Cta')}
+            href="https://www.xporty.com/tournaments/8672898-4o-torneo-solidario-padel-txe/registration/request?e_id=8827415"
           />
 
           {/* Donación IBAN */}
