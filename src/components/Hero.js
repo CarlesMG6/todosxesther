@@ -17,8 +17,8 @@ export default function Hero() {
 
   return (
     <>
-      <section className="relative  flex items-center pt-8 pb-20 md:py-0 md:px-8 overflow-hidden bg-background">
-        <div className="w-full mx-auto px-4 sm:px-8 grid md:grid-cols-12 gap-8 md:gap-14 xl:gap-28 items-center py-12">
+      <section className="relative  flex items-center pt-8 md:py-0 md:px-8 overflow-hidden bg-background">
+        <div className="w-full mx-auto px-4 sm:px-8 grid md:grid-cols-12 md:gap-14 xl:gap-28 items-center py-12">
           {/* Left Column - Content */}
           <div className="md:col-span-7 z-10 items-center justify-center">
             <span className="inline-block px-4 py-1 bg-pale-orange text-orange-900 rounded-full text-xs sm:text-sm font-bold tracking-widest uppercase mb-4 sm:mb-6">
@@ -48,7 +48,7 @@ export default function Hero() {
           </div>
 
           {/* Right Column - Image + Info Card */}
-          <div className="md:col-span-5 relative mt-8 md:mt-0 flex max-h-3/4">
+          <div className="md:col-span-5 relative mt-4 md:mt-0 flex max-h-3/4">
             <div className="aspect-4/5 rounded-xl overflow-hidden shadow-2xl md:rotate-6 hover:rotate-0 transition-transform duration-700">
               <Image
                 src="/images/padel.jpg"
