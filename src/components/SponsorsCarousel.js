@@ -55,7 +55,22 @@ const SPONSORS = [
     name: 'Go Nomad',
     logo: '/images/sponsors/gonomad.png',
     url: 'https://www.gonomad.es',
-  }
+  },
+  {
+    name: 'Audiovisuals Condal',
+    logo: '/images/sponsors/condalaudiovisuals.png',
+    url: 'https://www.audiovisualscondal.com/',
+  },
+  {
+    name: 'Acadèmia Guiu',
+    logo: '/images/sponsors/academiaguiu.png',
+    url: 'https://www.academiaguiu.com/',
+  },
+  {
+    name: 'Ahorro Energía',
+    logo: '/images/sponsors/ahorroenergia.png',
+    url: 'https://ahorro-energia.com/',
+  },
 ];
 
 
