@@ -75,7 +75,22 @@ const SPONSORS = [
     name: '03 Construccions i Manteniments',
     logo: '/images/sponsors/03.jpg',
     url: 'https://www.o3construccions.com/',
-  }
+  },
+  {
+    name: 'Audiovisuals Condal',
+    logo: '/images/sponsors/condalaudiovisuals.png',
+    url: 'https://www.audiovisualscondal.com/',
+  },
+  {
+    name: 'Acadèmia Guiu',
+    logo: '/images/sponsors/academiaguiu.png',
+    url: 'https://www.academiaguiu.com/',
+  },
+  {
+    name: 'Ahorro Energía',
+    logo: '/images/sponsors/ahorroenergia.png',
+    url: 'https://ahorro-energia.com/',
+  },
 ];
 
 
