@@ -7,8 +7,8 @@ import Image from 'next/image';
 import { X, MapPin, Calendar } from 'lucide-react';
 
 const LOCATION_URL = 'https://www.google.com/maps/place/Club+Deportivo+Valldoreix/@41.504528,2.1571963,33050m/data=!3m1!1e3!4m6!3m5!1s0x12a490d00aa0c3ad:0xac7f463d48e4165d!8m2!3d41.4502467!4d2.0558162!16s%2Fg%2F1td8n7gt?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D';
-const TENNIS_URL = 'https://www.xporty.com/tournaments/8714675-4o-torneo-solidario-tenis-txe';
-const PADEL_URL = 'https://www.xporty.com/tournaments/8672898-4o-torneo-solidario-padel-txe';
+const TENNIS_URL = 'https://www.xporty.com/tournaments/8714675-4o-torneo-solidario-tenis-txe/report/gamesByDate';
+const PADEL_URL = 'https://www.xporty.com/tournaments/8672898-4o-torneo-solidario-padel-txe/report/gamesByDate';
 
 export default function Hero() {
   const t = useTranslations('Hero');
@@ -38,12 +38,12 @@ export default function Hero() {
               >
                 {t('cta')}
               </button>
-              <button
+              {/*<button
                 onClick={() => router.push('/agenda')}
                 className="hidden md:flex bg-card text-accent px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
               >
                 {t('agendaCta')}
-              </button>
+              </button>*/}
             </div>
           </div>
 

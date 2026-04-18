@@ -55,6 +55,26 @@ const SPONSORS = [
     name: 'Go Nomad',
     logo: '/images/sponsors/gonomad.png',
     url: 'https://www.gonomad.es',
+  },
+  {
+    name: 'Gassó',
+    logo: '/images/sponsors/gasso.png',
+    url: 'https://gasso.com/',
+  },
+  {
+    name: 'Ahorro Energía',
+    logo: '/images/sponsors/Ahorro_energia.png',
+    url: 'https://ahorro-energia.com/',
+  },
+  {
+    name: 'Click & Klassix',
+    logo: '/images/sponsors/click_klassix.png',
+    url: 'https://www.klasix.cat/',
+  },
+  {
+    name: '03 Construccions i Manteniments',
+    logo: '/images/sponsors/03.jpg',
+    url: 'https://www.o3construccions.com/',
   }
 ];
 
