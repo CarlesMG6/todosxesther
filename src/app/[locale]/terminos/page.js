@@ -13,7 +13,7 @@ export default function TermsPage() {
     <div className="flex flex-col min-h-screen items-center justify-center bg-background">
       <Header />
 
-        <main className="flex grow w-full flex-col items-start pt-32 pb-16 px-6 max-w-3xl mx-auto gap-10">
+        <main className="flex grow w-full flex-col items-start pt-32 px-6 max-w-3xl mx-auto gap-10">
         <h1 className="text-3xl font-bold text-primary">{t('title')}</h1>
 
         {/* Derechos de imagen */}
