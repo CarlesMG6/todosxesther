@@ -61,7 +61,7 @@ export default function TermsPage() {
             download
             className="inline-flex items-center gap-2 self-start px-5 py-2.5 bg-accent text-accent-contrast rounded-full font-bold shadow hover:scale-105 hover:shadow-lg transition-all"
           >
-            ↓ {t('regulationDownload')}
+            {t('regulationDownload')}
           </a>
         </section>
       </main>
