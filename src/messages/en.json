@@ -94,7 +94,16 @@
   "Footer": {
     "helpButton": "I want to help!",
     "contactButton": "Contact Us",
+    "termsLink": "Terms and conditions",
     "copyright": "© {year} All for Esther. All rights reserved."
+  },
+  "Terms": {
+    "title": "Terms and Conditions",
+    "imageRightsTitle": "Image and Communication Rights",
+    "imageRightsContent": "Participation in the league implies acceptance that the organization may use images, videos and match results for the purpose of disseminating and promoting the event.",
+    "regulationTitle": "Acceptance of the Regulations",
+    "regulationContent": "Registration implies full acceptance of the <regulations>regulations</regulations>. The organizer reserves the right to resolve any situation not covered by the regulations.",
+    "regulationDownload": "Download the regulations here"
   },
   "Navigation": {
     "esther": "Who is Esther",

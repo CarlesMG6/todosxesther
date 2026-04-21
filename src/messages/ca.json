@@ -94,7 +94,16 @@
   "Footer": {
     "helpButton": "Vull ajudar!",
     "contactButton": "Contacta'ns",
+    "termsLink": "Termes i condicions",
     "copyright": "© {year} Tots X Esther. Tots els drets reservats."
+  },
+  "Terms": {
+    "title": "Termes i Condicions",
+    "imageRightsTitle": "Drets d'imatge i comunicació",
+    "imageRightsContent": "La participació en la lliga implica l'acceptació que l'organització pugui utilitzar imatges, vídeos i resultats dels partits amb fins de difusió i promoció de l'event.",
+    "regulationTitle": "Acceptació del reglament",
+    "regulationContent": "La inscripció suposa l'acceptació íntegra del <reglament>reglament</reglament>. L'organitzador es reserva el dret a resoldre qualsevol situació no prevista en el reglament.",
+    "regulationDownload": "Descarrega el reglament aquí"
   },
   "Navigation": {
     "esther": "Qui és Esther",

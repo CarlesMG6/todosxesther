@@ -35,6 +35,9 @@ export default function Footer() {
         </div>
       </div>
       <hr className="w-full max-w-3xl border-t border-primary/10" />
+      <Link href="/terminos" className="text-xs text-secondary/70 hover:text-secondary underline underline-offset-2 transition-colors">
+        {t('termsLink')}
+      </Link>
       <div className="text-xs text-secondary">{t('copyright', { year: new Date().getFullYear() })}</div>
     </footer>
   );

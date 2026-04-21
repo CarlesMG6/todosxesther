@@ -91,7 +91,16 @@
   "Footer": {
     "helpButton": "¡Quiero ayudar!",
     "contactButton": "Contáctanos",
+    "termsLink": "Términos y condiciones",
     "copyright": "© {year} Todos X Esther. Todos los derechos reservados."
+  },
+  "Terms": {
+    "title": "Términos y Condiciones",
+    "imageRightsTitle": "Derechos de imagen y comunicación",
+    "imageRightsContent": "La participación en la liga implica la aceptación de que la organización pueda utilizar imágenes, vídeos y resultados de los partidos con fines de difusión y promoción del evento.",
+    "regulationTitle": "Aceptación del reglamento",
+    "regulationContent": "La inscripción supone la aceptación íntegra del <reglamento>reglamento</reglamento>. El organizador se reserva el derecho a resolver cualquier situación no prevista en el reglamento.",
+    "regulationDownload": "Descarga el reglamento aquí"
   },
   "Navigation": {
     "esther": "Quien es Esther",
